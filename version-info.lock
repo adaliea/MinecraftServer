@@ -1,0 +1,175 @@
+{
+    "_meta": {
+        "minecraft_version": "1.21.7"
+    },
+    "mods": {
+        "g96Z4WVZ": {
+            "id": "VLDb95oX",
+            "version_number": "2.2.3"
+        },
+        "5ZwdcRci": {
+            "id": "cuRqLEAA",
+            "version_number": "1.11.0+1.21.7-fabric"
+        },
+        "sGmHWmeL": {
+            "id": "LGYOH4RN",
+            "version_number": "1.1.1+1.17"
+        },
+        "gZ09gTMv": {
+            "id": "HRaM9kHT",
+            "version_number": "1.21.4-v1.1"
+        },
+        "gvQqBUqZ": {
+            "id": "77EtzYFA",
+            "version_number": "mc1.21.7-0.18.0-fabric"
+        },
+        "uRHq6kbO": {
+            "id": "cwLGPoai",
+            "version_number": "1.4.0+release.85+1.21.7"
+        },
+        "yBW8D80W": {
+            "id": "eNZaVVBz",
+            "version_number": "4.3.0+1.21.6"
+        },
+        "eXts2L7r": {
+            "id": "wg33PHxj",
+            "version_number": "2.7.1+1.21.6"
+        },
+        "KuNKN7d2": {
+            "id": "V9mMIy0f",
+            "version_number": "2.7.0+mc1.21.6"
+        },
+        "BVzZfTc1": {
+            "id": "aEVKKdXX",
+            "version_number": "6.2.14"
+        },
+        "LQ3K71Q1": {
+            "id": "PqIDU2GY",
+            "version_number": "3.9.6"
+        },
+        "n6PXGAoM": {
+            "id": "tWxry96X",
+            "version_number": "3.13.9-beta.2+fabric-1.21.7"
+        },
+        "ZVzW5oNS": {
+            "id": "eTXZb5Wq",
+            "version_number": "5.4.8"
+        },
+        "M08ruV16": {
+            "id": "ODwC9dEb",
+            "version_number": "5.2.8+mc1.21.6"
+        },
+        "fALzjamp": {
+            "id": "inWDi2cf",
+            "version_number": "1.4.40"
+        },
+        "PtjYWJkn": {
+            "id": "v7JHUEiF",
+            "version_number": "mc1.21.6-0.6.6+fabric"
+        },
+        "4I1XuqiY": {
+            "id": "N0YnseYc",
+            "version_number": "2.4.4"
+        },
+        "Vebnzrzj": {
+            "id": "WBIpgXZQ",
+            "version_number": "v5.5.9-fabric"
+        },
+        "Bh37bMuy": {
+            "id": "AgGRyydH",
+            "version_number": "mc1.21.6-1.8.4+fabric"
+        },
+        "Ha28R6CL": {
+            "id": "mccDBWqV",
+            "version_number": "1.13.4+kotlin.2.2.0"
+        },
+        "8shC1gFX": {
+            "id": "DHCqyQtH",
+            "version_number": "15.0.0"
+        },
+        "QdG47OkI": {
+            "id": "WcDxGReS",
+            "version_number": "1.21.5-1.12"
+        },
+        "uXXizFIs": {
+            "id": "CtMpt7Jr",
+            "version_number": "8.0.0-fabric"
+        },
+        "mOgUt4GM": {
+            "id": "JY1tNj8H",
+            "version_number": "15.0.0-beta.3"
+        },
+        "qyVF9oeo": {
+            "id": "acb0kJIr",
+            "version_number": "fabric-1.21.7-1.4.14"
+        },
+        "e0M1UDsY": {
+            "id": "1vOnuu89",
+            "version_number": "1.21.7-8.4-fabric+forge+neo"
+        },
+        "YL57xq9U": {
+            "id": "l77DAK6U",
+            "version_number": "1.9.1+1.21.7-fabric"
+        },
+        "l6YH9Als": {
+            "id": "wPYvarTa",
+            "version_number": "1.10.140-fabric"
+        },
+        "Eldc1g37": {
+            "id": "vG8asQVB",
+            "version_number": "3.12.8-beta.1+fabric-1.21.7"
+        },
+        "fQEb0iXm": {
+            "id": "neW85eWt",
+            "version_number": "0.2.9"
+        },
+        "1eAoo2KR": {
+            "id": "WxYlHLu6",
+            "version_number": "3.7.1+1.21.6-fabric"
+        },
+        "AANobbMI": {
+            "id": "ND4ROcMQ",
+            "version_number": "mc1.21.6-0.6.13-fabric"
+        },
+        "1IjD5062": {
+            "id": "kravz06U",
+            "version_number": "3.0.1-test.4+1.21.5"
+        },
+        "EIa1eiMm": {
+            "id": "RkAlGPsT",
+            "version_number": "5.0.0-fabric"
+        },
+        "1u6JkXh5": {
+            "id": "3HceS8fQ",
+            "version_number": "7.3.15-beta-02"
+        },
+        "yn9u3ypm": {
+            "id": "gdZmLCZD",
+            "version_number": "3.8.1+1.21.6"
+        },
+        "8qkXwOnk": {
+            "id": "3siYJiWG",
+            "version_number": "1.3.1"
+        },
+        "w7ThoJFB": {
+            "id": "Smt2Lxmo",
+            "version_number": "2.14.4+1.21.6"
+        },
+        "wnEe9KBa": {
+            "id": "fcuAO34V",
+            "version_number": "0.2.0+beta.7.202+1.21.7"
+        },
+        "cl223EMc": {
+            "id": "bgdjh4pG",
+            "version_number": "2.0.3-fabric"
+        },
+        "xGdtZczs": {
+            "id": "YWXh0Bbd",
+            "version_number": "0.13.4+1.21.7"
+        },
+        "P7dR8mSH": {
+            "id": "JIZogEYa",
+            "version_number": "0.128.2+1.21.7"
+        }
+    }
+}
