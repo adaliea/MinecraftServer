@@ -1,0 +1,115 @@
+services:
+  mc:
+    image: itzg/minecraft-server:latest
+    tty: true
+    stdin_open: true
+    ports:
+    - 25565:25565
+    environment:
+      EULA: 'TRUE'
+      TYPE: FABRIC
+      VERSION: 1.21.7
+      MEMORY: 13312M
+      MOTD: Adalie's MC Server
+      USE_AIKAR_FLAGS: 'true'
+      TZ: America/Los_Angeles
+      DIFFICULTY: '3'
+      ENABLE_COMMAND_BLOCK: 'true'
+      SIMULATION_DISTANCE: '12'
+      VIEW_DISTANCE: '32'
+      REGION_FILE_COMPRESSION: lz4
+      SYNC_CHUNK_WRITES: 'false'
+      OPS: DaCubeKing
+      EXISTING_OPS_FILE: SYNCHRONIZE
+      ENABLE_WHITELIST: 'true'
+      WHITELIST: DaCubeKing
+      EXISTING_WHITELIST_FILE: MERGE
+      MODRINTH_PROJECTS: 'g96Z4WVZ:2.2.3
+
+        5ZwdcRci:1.11.0+1.21.7
+
+        sGmHWmeL:1.1.1+1.17
+
+        gZ09gTMv:1.21.4-v1.1
+
+        gvQqBUqZ:0.18.0+mc1.21.7
+
+        uRHq6kbO:1.4.0+release.85
+
+        yBW8D80W:4.3.0+1.21.6
+
+        eXts2L7r:2.7.1+1.21.6
+
+        KuNKN7d2:2.7.0+mc1.21.6
+
+        BVzZfTc1:6.2.14
+
+        LQ3K71Q1:3.9.6
+
+        n6PXGAoM:3.13.9-beta.2+fabric-1.21.7
+
+        ZVzW5oNS:5.4.8
+
+        M08ruV16:5.2.8+mc1.21.6
+
+        fALzjamp:1.4.40
+
+        PtjYWJkn:0.6.6+mc1.21.6
+
+        4I1XuqiY:2.4.4
+
+        Vebnzrzj:5.5.9
+
+        Bh37bMuy:1.8.4+mc1.21.6
+
+        Ha28R6CL:1.13.4+kotlin.2.2.0
+
+        8shC1gFX:15.0.0
+
+        QdG47OkI:1.21.5-1.12
+
+        uXXizFIs:8.0.0
+
+        mOgUt4GM:15.0.0-beta.3
+
+        qyVF9oeo:1.21.7-1.4.14
+
+        e0M1UDsY:8.4
+
+        YL57xq9U:1.9.1+mc1.21.7
+
+        l6YH9Als:1.10.140
+
+        Eldc1g37:3.12.8-beta.1+fabric-1.21.7
+
+        fQEb0iXm:0.2.9
+
+        1eAoo2KR:3.7.1+1.21.6-fabric
+
+        AANobbMI:0.6.13+mc1.21.6
+
+        1IjD5062:3.0.1-test.4+1.21.5
+
+        EIa1eiMm:5.0.0
+
+        1u6JkXh5:7.3.15-beta-02+9a50ff6
+
+        yn9u3ypm:3.8.1+1.21.6
+
+        8qkXwOnk:1.3.1
+
+        w7ThoJFB:2.14.4+1.21.6
+
+        wnEe9KBa:0.2.0+beta.7.202+1.21.7
+
+        cl223EMc:2.0.3
+
+        xGdtZczs:0.13.4+1.21.7
+
+        P7dR8mSH:0.128.2+1.21.7'
+      MODRINTH_DOWNLOAD_DEPENDENCIES: optional
+      MODRINTH_ALLOWED_VERSION_TYPE: alpha
+      VANILLATWEAKS_SHARECODE: 4ouSfl
+      ENABLE_ROLLING_LOGS: 'true'
+    volumes:
+    - ./data:/data
