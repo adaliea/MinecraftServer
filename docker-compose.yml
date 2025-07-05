@@ -113,7 +113,11 @@ services:
 
         jE0SjGuf:jKhQJW1O
 
-        fdZkP5Bb:xKC3g1t3'
+        fdZkP5Bb:xKC3g1t3
+
+        LVN9ygNV:f3h7no4G
+
+        neH5ooPP:E1od7pej'
       MODRINTH_DOWNLOAD_DEPENDENCIES: required
       MODRINTH_ALLOWED_VERSION_TYPE: alpha
       VANILLATWEAKS_SHARECODE: 4ouSfl

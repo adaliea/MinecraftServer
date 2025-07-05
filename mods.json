@@ -218,5 +218,15 @@
         "name": "Vanilla Permissions",
         "url": "https://modrinth.com/mod/fdZkP5Bb",
         "version": "0.2.10+1.21.6"
+    },
+    {
+        "name": "Ledger",
+        "url": "https://modrinth.com/mod/LVN9ygNV",
+        "version": "1.3.12"
+    },
+    {
+        "name": "InvRestore",
+        "url": "https://modrinth.com/mod/neH5ooPP",
+        "version": "0.1.4"
     }
 ]
