@@ -9,7 +9,7 @@ services:
       EULA: 'TRUE'
       TYPE: FABRIC
       VERSION: 1.21.7
-      MEMORY: 1000M
+      MEMORY: 12500M
       MOTD: Adalie's MC Server
       USE_AIKAR_FLAGS: 'true'
       TZ: America/Los_Angeles
