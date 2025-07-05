@@ -27,97 +27,99 @@ services:
       REMOVE_OLD_MODS: true
       REMOVE_OLD_MODS_INCLUDE: '*.jar'
       REMOVE_OLD_MODS_DEPTH: 1
-      MODRINTH_PROJECTS: 'LQ3K71Q1:PqIDU2GY
-
-        uXXizFIs:CtMpt7Jr
-
-        fQEb0iXm:neW85eWt
-
-        BVzZfTc1:aEVKKdXX
-
-        M08ruV16:ODwC9dEb
-
-        QdG47OkI:WcDxGReS
-
-        eXts2L7r:wg33PHxj
-
-        w7ThoJFB:Smt2Lxmo
-
-        yn9u3ypm:gdZmLCZD
-
-        mOgUt4GM:JY1tNj8H
-
-        4I1XuqiY:N0YnseYc
-
-        gvQqBUqZ:77EtzYFA
-
-        1IjD5062:kravz06U
-
-        8shC1gFX:DHCqyQtH
-
-        xGdtZczs:YWXh0Bbd
-
-        sGmHWmeL:LGYOH4RN
-
-        Ha28R6CL:mccDBWqV
-
-        P7dR8mSH:JIZogEYa
-
-        yBW8D80W:eNZaVVBz
-
-        g96Z4WVZ:VLDb95oX
-
-        fALzjamp:inWDi2cf
-
-        wnEe9KBa:fcuAO34V
+      MODRINTH_PROJECTS: 'PtjYWJkn:v7JHUEiF
 
         gZ09gTMv:HRaM9kHT
 
-        1eAoo2KR:WxYlHLu6
+        g96Z4WVZ:VLDb95oX
 
-        5ZwdcRci:cuRqLEAA
+        P7dR8mSH:JIZogEYa
 
-        qyVF9oeo:acb0kJIr
+        M08ruV16:ODwC9dEb
 
-        EIa1eiMm:RkAlGPsT
-
-        uRHq6kbO:cwLGPoai
-
-        Bh37bMuy:AgGRyydH
-
-        e0M1UDsY:1vOnuu89
-
-        ZVzW5oNS:eTXZb5Wq
-
-        cl223EMc:bgdjh4pG
-
-        1u6JkXh5:3HceS8fQ
-
-        YL57xq9U:l77DAK6U
-
-        8qkXwOnk:3siYJiWG
+        fQEb0iXm:neW85eWt
 
         AANobbMI:ND4ROcMQ
 
-        Eldc1g37:vG8asQVB
+        wnEe9KBa:fcuAO34V
 
-        PtjYWJkn:v7JHUEiF
+        ZVzW5oNS:eTXZb5Wq
+
+        uRHq6kbO:cwLGPoai
 
         l6YH9Als:wPYvarTa
 
         n6PXGAoM:tWxry96X
 
-        Vebnzrzj:WBIpgXZQ
-
-        TQTTVgYE:RXcxPvgC
-
-        jE0SjGuf:jKhQJW1O
+        gvQqBUqZ:77EtzYFA
 
         fdZkP5Bb:xKC3g1t3
 
+        Vebnzrzj:WBIpgXZQ
+
+        Bh37bMuy:AgGRyydH
+
+        Ha28R6CL:mccDBWqV
+
+        5ZwdcRci:cuRqLEAA
+
+        1eAoo2KR:WxYlHLu6
+
+        Eldc1g37:vG8asQVB
+
+        jE0SjGuf:jKhQJW1O
+
+        xGdtZczs:YWXh0Bbd
+
+        TQTTVgYE:RXcxPvgC
+
+        e0M1UDsY:1vOnuu89
+
+        qyVF9oeo:acb0kJIr
+
+        8shC1gFX:DHCqyQtH
+
+        mOgUt4GM:JY1tNj8H
+
+        1u6JkXh5:3HceS8fQ
+
+        EIa1eiMm:RkAlGPsT
+
+        1IjD5062:kravz06U
+
+        neH5ooPP:E1od7pej
+
+        w7ThoJFB:Smt2Lxmo
+
         LVN9ygNV:f3h7no4G
 
-        neH5ooPP:E1od7pej'
+        4I1XuqiY:N0YnseYc
+
+        QdG47OkI:WcDxGReS
+
+        eXts2L7r:wg33PHxj
+
+        yn9u3ypm:gdZmLCZD
+
+        uXXizFIs:CtMpt7Jr
+
+        BVzZfTc1:aEVKKdXX
+
+        8qkXwOnk:3siYJiWG
+
+        YL57xq9U:l77DAK6U
+
+        yBW8D80W:eNZaVVBz
+
+        LQ3K71Q1:PqIDU2GY
+
+        sGmHWmeL:LGYOH4RN
+
+        cl223EMc:bgdjh4pG
+
+        fALzjamp:inWDi2cf
+
+        sml2FMaA:8oiUayeD'
       MODRINTH_DOWNLOAD_DEPENDENCIES: required
       MODRINTH_ALLOWED_VERSION_TYPE: alpha
       VANILLATWEAKS_SHARECODE: 4ouSfl
