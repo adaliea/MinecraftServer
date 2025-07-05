@@ -1,108 +1,8 @@
 [
     {
-        "name": "BadOptimizations",
-        "url": "https://modrinth.com/mod/g96Z4WVZ",
-        "version": "2.2.3"
-    },
-    {
-        "name": "ImmediatelyFast",
-        "url": "https://modrinth.com/mod/5ZwdcRci",
-        "version": "1.11.0+1.21.7"
-    },
-    {
-        "name": "MixinTrace",
-        "url": "https://modrinth.com/mod/sGmHWmeL",
-        "version": "1.1.1+1.17"
-    },
-    {
-        "name": "affordable",
-        "url": "https://modrinth.com/mod/gZ09gTMv",
-        "version": "1.21.4-v1.1"
-    },
-    {
-        "name": "Lithium",
-        "url": "https://modrinth.com/mod/gvQqBUqZ",
-        "version": "0.18.0+mc1.21.7"
-    },
-    {
-        "name": "Modflared",
-        "url": "https://modrinth.com/mod/uRHq6kbO",
-        "version": "1.4.0+release.85"
-    },
-    {
-        "name": "LambDynamicLights",
-        "url": "https://modrinth.com/mod/yBW8D80W",
-        "version": "4.3.0+1.21.6"
-    },
-    {
-        "name": "Placeholder API",
-        "url": "https://modrinth.com/mod/eXts2L7r",
-        "version": "2.7.1+1.21.6"
-    },
-    {
-        "name": "Entity Texture Features",
-        "url": "https://modrinth.com/mod/BVzZfTc1",
-        "version": "6.2.14"
-    },
-    {
         "name": "Dynamic FPS",
         "url": "https://modrinth.com/mod/LQ3K71Q1",
         "version": "3.9.6"
-    },
-    {
-        "name": "Better Statistics Screen",
-        "url": "https://modrinth.com/mod/n6PXGAoM",
-        "version": "3.13.9-beta.2+fabric-1.21.7"
-    },
-    {
-        "name": "Incendium",
-        "url": "https://modrinth.com/mod/ZVzW5oNS",
-        "version": "5.4.8"
-    },
-    {
-        "name": "Bobby",
-        "url": "https://modrinth.com/mod/M08ruV16",
-        "version": "5.2.8+mc1.21.6"
-    },
-    {
-        "name": "Chunky",
-        "url": "https://modrinth.com/mod/fALzjamp",
-        "version": "1.4.40"
-    },
-    {
-        "name": "Sodium Extra",
-        "url": "https://modrinth.com/mod/PtjYWJkn",
-        "version": "0.6.6+mc1.21.6"
-    },
-    {
-        "name": "Entity Model Features",
-        "url": "https://modrinth.com/mod/4I1XuqiY",
-        "version": "2.4.4"
-    },
-    {
-        "name": "LuckPerms",
-        "url": "https://modrinth.com/mod/Vebnzrzj",
-        "version": "5.5.9"
-    },
-    {
-        "name": "Reese's Sodium Options",
-        "url": "https://modrinth.com/mod/Bh37bMuy",
-        "version": "1.8.4+mc1.21.6"
-    },
-    {
-        "name": "Fabric Language Kotlin",
-        "url": "https://modrinth.com/mod/Ha28R6CL",
-        "version": "1.13.4+kotlin.2.2.0"
-    },
-    {
-        "name": "BetterF3",
-        "url": "https://modrinth.com/mod/8shC1gFX",
-        "version": "15.0.0"
-    },
-    {
-        "name": "Model Gap Fix",
-        "url": "https://modrinth.com/mod/QdG47OkI",
-        "version": "1.21.5-1.12"
     },
     {
         "name": "FerriteCore",
@@ -110,74 +10,29 @@
         "version": "8.0.0"
     },
     {
-        "name": "Mod Menu",
-        "url": "https://modrinth.com/mod/mOgUt4GM",
-        "version": "15.0.0-beta.3"
-    },
-    {
-        "name": "Sound Physics Remastered",
-        "url": "https://modrinth.com/mod/qyVF9oeo",
-        "version": "1.21.7-1.4.14"
-    },
-    {
-        "name": "Collective",
-        "url": "https://modrinth.com/mod/e0M1UDsY",
-        "version": "8.4"
-    },
-    {
-        "name": "Iris",
-        "url": "https://modrinth.com/mod/YL57xq9U",
-        "version": "1.9.1+mc1.21.7"
-    },
-    {
-        "name": "spark",
-        "url": "https://modrinth.com/mod/l6YH9Als",
-        "version": "1.10.140"
-    },
-    {
-        "name": "TCD Commons API",
-        "url": "https://modrinth.com/mod/Eldc1g37",
-        "version": "3.12.8-beta.1+fabric-1.21.7"
-    },
-    {
         "name": "Krypton",
         "url": "https://modrinth.com/mod/fQEb0iXm",
         "version": "0.2.9"
     },
     {
-        "name": "YetAnotherConfigLib",
-        "url": "https://modrinth.com/mod/1eAoo2KR",
-        "version": "3.7.1+1.21.6-fabric"
+        "name": "Entity Texture Features",
+        "url": "https://modrinth.com/mod/BVzZfTc1",
+        "version": "6.2.14"
     },
     {
-        "name": "Sodium",
-        "url": "https://modrinth.com/mod/AANobbMI",
-        "version": "0.6.13+mc1.21.6"
+        "name": "Bobby",
+        "url": "https://modrinth.com/mod/M08ruV16",
+        "version": "5.2.8+mc1.21.6"
     },
     {
-        "name": "Continuity",
-        "url": "https://modrinth.com/mod/1IjD5062",
-        "version": "3.0.1-test.4+1.21.5"
+        "name": "Model Gap Fix",
+        "url": "https://modrinth.com/mod/QdG47OkI",
+        "version": "1.21.5-1.12"
     },
     {
-        "name": "Sodium Shadowy Path Blocks",
-        "url": "https://modrinth.com/mod/EIa1eiMm",
-        "version": "5.0.0"
-    },
-    {
-        "name": "WorldEdit",
-        "url": "https://modrinth.com/mod/1u6JkXh5",
-        "version": "7.3.15-beta-02+9a50ff6"
-    },
-    {
-        "name": "Universal Graves",
-        "url": "https://modrinth.com/mod/yn9u3ypm",
-        "version": "3.8.1+1.21.6"
-    },
-    {
-        "name": "More Chat History",
-        "url": "https://modrinth.com/mod/8qkXwOnk",
-        "version": "1.3.1"
+        "name": "Placeholder API",
+        "url": "https://modrinth.com/mod/eXts2L7r",
+        "version": "2.7.1+1.21.6"
     },
     {
         "name": "Zoomify",
@@ -185,14 +40,34 @@
         "version": "2.14.4+1.21.6"
     },
     {
-        "name": "Very Many Players",
-        "url": "https://modrinth.com/mod/wnEe9KBa",
-        "version": "0.2.0+beta.7.202+1.21.7"
+        "name": "Universal Graves",
+        "url": "https://modrinth.com/mod/yn9u3ypm",
+        "version": "3.8.1+1.21.6"
     },
     {
-        "name": "Cristel Lib",
-        "url": "https://modrinth.com/mod/cl223EMc",
-        "version": "2.0.3"
+        "name": "Mod Menu",
+        "url": "https://modrinth.com/mod/mOgUt4GM",
+        "version": "15.0.0-beta.3"
+    },
+    {
+        "name": "Entity Model Features",
+        "url": "https://modrinth.com/mod/4I1XuqiY",
+        "version": "2.4.4"
+    },
+    {
+        "name": "Lithium",
+        "url": "https://modrinth.com/mod/gvQqBUqZ",
+        "version": "0.18.0+mc1.21.7"
+    },
+    {
+        "name": "Continuity",
+        "url": "https://modrinth.com/mod/1IjD5062",
+        "version": "3.0.1-test.4+1.21.5"
+    },
+    {
+        "name": "BetterF3",
+        "url": "https://modrinth.com/mod/8shC1gFX",
+        "version": "15.0.0"
     },
     {
         "name": "Polymer",
@@ -200,8 +75,148 @@
         "version": "0.13.4+1.21.7"
     },
     {
+        "name": "MixinTrace",
+        "url": "https://modrinth.com/mod/sGmHWmeL",
+        "version": "1.1.1+1.17"
+    },
+    {
+        "name": "Fabric Language Kotlin",
+        "url": "https://modrinth.com/mod/Ha28R6CL",
+        "version": "1.13.4+kotlin.2.2.0"
+    },
+    {
         "name": "Fabric API",
         "url": "https://modrinth.com/mod/P7dR8mSH",
         "version": "0.128.2+1.21.7"
+    },
+    {
+        "name": "LambDynamicLights",
+        "url": "https://modrinth.com/mod/yBW8D80W",
+        "version": "4.3.0+1.21.6"
+    },
+    {
+        "name": "BadOptimizations",
+        "url": "https://modrinth.com/mod/g96Z4WVZ",
+        "version": "2.2.3"
+    },
+    {
+        "name": "Chunky",
+        "url": "https://modrinth.com/mod/fALzjamp",
+        "version": "1.4.40"
+    },
+    {
+        "name": "Very Many Players",
+        "url": "https://modrinth.com/mod/wnEe9KBa",
+        "version": "0.2.0+beta.7.202+1.21.7"
+    },
+    {
+        "name": "affordable",
+        "url": "https://modrinth.com/mod/gZ09gTMv",
+        "version": "1.21.4-v1.1"
+    },
+    {
+        "name": "YetAnotherConfigLib",
+        "url": "https://modrinth.com/mod/1eAoo2KR",
+        "version": "3.7.1+1.21.6-fabric"
+    },
+    {
+        "name": "ImmediatelyFast",
+        "url": "https://modrinth.com/mod/5ZwdcRci",
+        "version": "1.11.0+1.21.7"
+    },
+    {
+        "name": "Sound Physics Remastered",
+        "url": "https://modrinth.com/mod/qyVF9oeo",
+        "version": "1.21.7-1.4.14"
+    },
+    {
+        "name": "Sodium Shadowy Path Blocks",
+        "url": "https://modrinth.com/mod/EIa1eiMm",
+        "version": "5.0.0"
+    },
+    {
+        "name": "Modflared",
+        "url": "https://modrinth.com/mod/uRHq6kbO",
+        "version": "1.4.0+release.85"
+    },
+    {
+        "name": "Reese's Sodium Options",
+        "url": "https://modrinth.com/mod/Bh37bMuy",
+        "version": "1.8.4+mc1.21.6"
+    },
+    {
+        "name": "Collective",
+        "url": "https://modrinth.com/mod/e0M1UDsY",
+        "version": "8.4"
+    },
+    {
+        "name": "Incendium",
+        "url": "https://modrinth.com/mod/ZVzW5oNS",
+        "version": "5.4.8"
+    },
+    {
+        "name": "Cristel Lib",
+        "url": "https://modrinth.com/mod/cl223EMc",
+        "version": "2.0.3"
+    },
+    {
+        "name": "WorldEdit",
+        "url": "https://modrinth.com/mod/1u6JkXh5",
+        "version": "7.3.15-beta-02+9a50ff6"
+    },
+    {
+        "name": "Iris",
+        "url": "https://modrinth.com/mod/YL57xq9U",
+        "version": "1.9.1+mc1.21.7"
+    },
+    {
+        "name": "More Chat History",
+        "url": "https://modrinth.com/mod/8qkXwOnk",
+        "version": "1.3.1"
+    },
+    {
+        "name": "Sodium",
+        "url": "https://modrinth.com/mod/AANobbMI",
+        "version": "0.6.13+mc1.21.6"
+    },
+    {
+        "name": "TCD Commons API",
+        "url": "https://modrinth.com/mod/Eldc1g37",
+        "version": "3.12.8-beta.1+fabric-1.21.7"
+    },
+    {
+        "name": "Sodium Extra",
+        "url": "https://modrinth.com/mod/PtjYWJkn",
+        "version": "0.6.6+mc1.21.6"
+    },
+    {
+        "name": "spark",
+        "url": "https://modrinth.com/mod/l6YH9Als",
+        "version": "1.10.140"
+    },
+    {
+        "name": "Better Statistics Screen",
+        "url": "https://modrinth.com/mod/n6PXGAoM",
+        "version": "3.13.9-beta.2+fabric-1.21.7"
+    },
+    {
+        "name": "LuckPerms",
+        "url": "https://modrinth.com/mod/Vebnzrzj",
+        "version": "5.5.9"
+    },
+    {
+        "name": "Carpet Mod",
+        "url": "https://modrinth.com/mod/TQTTVgYE",
+        "version": "1.4.177+v250630"
+    },
+    {
+        "name": "Carpet TIS Addition",
+        "url": "https://modrinth.com/mod/jE0SjGuf",
+        "version": "1.67.3"
+    },
+    {
+        "name": "Vanilla Permissions",
+        "url": "https://modrinth.com/mod/fdZkP5Bb",
+        "version": "0.2.10+1.21.6"
     }
 ]
