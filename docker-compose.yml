@@ -34,17 +34,19 @@ services:
         431725
         656214
       # Extra mods not on CurseForge (Modrinth project IDs):
-      #   fALzjamp = Chunky
-      #   VfHc5JEX = Chunky Offline
-      #   FuyTRq2g = Create: CC Total Logistics
-      #   WZfuGM1m = Create: CC Better Recipes
+      #   fALzjamp        = Chunky
+      #   VfHc5JEX        = Chunky Offline
+      #   FuyTRq2g        = Create: CC Total Logistics
+      #   WZfuGM1m        = Create: CC Better Recipes
+      #   cc-tweaked:...  = CC: Tweaked (pinned version)
+      # Note: LuckPerms is placed manually in data/mods/ as a CI build (5.5.42)
+      #       because no fixed version exists on Modrinth for NeoForge 1.21.1
       MODRINTH_PROJECTS: |
         fALzjamp
         VfHc5JEX
         FuyTRq2g
         WZfuGM1m
         cc-tweaked:ZlZHN512
-        luckperms:v5.4.158-neoforge
       MEMORY: "12288M"
       MOTD: "All of Create 1.21.1"
       USE_MEOWICE_FLAGS: "true"
