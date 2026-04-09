@@ -10,7 +10,7 @@ services:
       EULA: "TRUE"
       TYPE: "AUTO_CURSEFORGE"
       CF_PAGE_URL: "https://www.curseforge.com/minecraft/modpacks/aoc/files/7870055"
-      CF_API_KEY: "${CF_API_KEY}"
+      CF_API_KEY: ${CF_API_KEY}
       # Extra mods not in the base pack (CurseForge project IDs)
       CURSEFORGE_FILES: |
         431733
@@ -41,3 +41,4 @@ services:
       ENABLE_ROLLING_LOGS: "true"
     volumes:
       - "./data:/data"
+      - ./downloads:/downloads
