@@ -1,237 +1,944 @@
 [
     {
-        "name": "Sodium Extra",
-        "url": "https://modrinth.com/mod/PtjYWJkn",
-        "version": "0.6.6+mc1.21.6"
+        "name": "Alternate Current",
+        "url": "https://modrinth.com/mod/alternate-current",
+        "version": "1.9.0"
     },
     {
-        "name": "affordable",
-        "url": "https://modrinth.com/mod/gZ09gTMv",
-        "version": "1.21.4-v1.1"
+        "name": "Cut Through",
+        "url": "https://github.com/Fuzss/cutthrough",
+        "version": "21.1.0"
     },
     {
-        "name": "BadOptimizations",
-        "url": "https://modrinth.com/mod/g96Z4WVZ",
-        "version": "2.2.3"
+        "name": "Create: Prismatic Shine",
+        "version": "1.1.3"
     },
     {
-        "name": "Fabric API",
-        "url": "https://modrinth.com/mod/P7dR8mSH",
-        "version": "0.128.2+1.21.7"
+        "name": "Redirected",
+        "url": "https://github.com/txnimc/Redirected/",
+        "version": "1.0.0"
     },
     {
-        "name": "Bobby",
-        "url": "https://modrinth.com/mod/M08ruV16",
-        "version": "5.2.8+mc1.21.6"
+        "name": "Create: Mob Spawners",
+        "version": "1.0.0"
     },
     {
-        "name": "Krypton",
-        "url": "https://modrinth.com/mod/fQEb0iXm",
-        "version": "0.2.9"
+        "name": "Bookshelf",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/bookshelf",
+        "version": "21.1.81"
     },
     {
-        "name": "Sodium",
-        "url": "https://modrinth.com/mod/AANobbMI",
-        "version": "0.6.13+mc1.21.6"
+        "name": "Does It Tick?",
+        "url": "https://github.com/txnimc/DoesItTick/",
+        "version": "1.1.4"
     },
     {
-        "name": "Very Many Players",
-        "url": "https://modrinth.com/mod/wnEe9KBa",
-        "version": "0.2.0+beta.7.202+1.21.7"
+        "name": "Just Enough Resources",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer",
+        "version": "1.6.0.17"
     },
     {
-        "name": "Incendium",
-        "url": "https://modrinth.com/mod/ZVzW5oNS",
-        "version": "5.4.8"
+        "name": "Create: Dragons Plus",
+        "url": "https://github.com/DragonsPlusMinecraft/CreateDragonsPlus",
+        "version": "1.8.7"
     },
     {
-        "name": "Modflared",
-        "url": "https://modrinth.com/mod/uRHq6kbO",
-        "version": "1.4.0+release.85"
+        "name": "Jade",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/jade",
+        "version": "15.10.5+neoforge\r"
     },
     {
-        "name": "spark",
-        "url": "https://modrinth.com/mod/l6YH9Als",
-        "version": "1.10.140"
+        "name": "Create Confectionery",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/create-confectionery",
+        "version": "1.1.0"
     },
     {
-        "name": "Better Statistics Screen",
-        "url": "https://modrinth.com/mod/n6PXGAoM",
-        "version": "3.13.9-beta.2+fabric-1.21.7"
+        "name": "Necronomicon",
+        "version": "1.6.0"
     },
     {
-        "name": "Lithium",
-        "url": "https://modrinth.com/mod/gvQqBUqZ",
-        "version": "0.18.0+mc1.21.7"
+        "name": "NotEnoughAnimations",
+        "url": "https://modrinth.com/mod/not-enough-animations",
+        "version": "1.12.0"
     },
     {
-        "name": "Vanilla Permissions",
-        "url": "https://modrinth.com/mod/fdZkP5Bb",
-        "version": "0.2.10+1.21.6"
+        "name": "create: things and misc",
+        "url": "https://discord.gg/k3fGJwJqzu",
+        "version": "1.0.0"
     },
     {
-        "name": "LuckPerms",
-        "url": "https://modrinth.com/mod/Vebnzrzj",
-        "version": "5.5.9"
+        "name": "Some Assembly Required",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/some-assembly-required",
+        "version": "5.2.8"
     },
     {
-        "name": "Reese's Sodium Options",
-        "url": "https://modrinth.com/mod/Bh37bMuy",
-        "version": "1.8.4+mc1.21.6"
+        "name": "Create: Power Grid",
+        "version": "0.5.4"
     },
     {
-        "name": "Fabric Language Kotlin",
-        "url": "https://modrinth.com/mod/Ha28R6CL",
-        "version": "1.13.4+kotlin.2.2.0"
+        "name": "Pick Up Notifier",
+        "url": "https://github.com/Fuzss/pickupnotifier",
+        "version": "21.1.1"
     },
     {
-        "name": "ImmediatelyFast",
-        "url": "https://modrinth.com/mod/5ZwdcRci",
-        "version": "1.11.0+1.21.7"
+        "name": "Create: New Age",
+        "url": "https://antarcticgardens.org/",
+        "version": "1.1.7c+mc1.21.1"
     },
     {
-        "name": "YetAnotherConfigLib",
-        "url": "https://modrinth.com/mod/1eAoo2KR",
-        "version": "3.7.1+1.21.6-fabric"
+        "name": "Create: Ornithopter Glider",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/create-ornithopter-glider",
+        "version": "1.0.3-1.21.1"
     },
     {
-        "name": "TCD Commons API",
-        "url": "https://modrinth.com/mod/Eldc1g37",
-        "version": "3.12.8-beta.1+fabric-1.21.7"
+        "name": "Immersive Aircraft",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/immersive-aircraft",
+        "version": "1.4.3+1.21.1"
     },
     {
-        "name": "Carpet TIS Addition",
-        "url": "https://modrinth.com/mod/jE0SjGuf",
-        "version": "1.67.3"
+        "name": "Sodium Leaf Culling",
+        "url": "https://github.com/txnimc/SodiumLeafCulling/",
+        "version": "1.0.1"
     },
     {
-        "name": "Polymer",
-        "url": "https://modrinth.com/mod/xGdtZczs",
-        "version": "0.13.4+1.21.7"
+        "name": "Create: Industrialized Architecture",
+        "version": "0.1.1b"
     },
     {
-        "name": "Carpet Mod",
-        "url": "https://modrinth.com/mod/TQTTVgYE",
-        "version": "1.4.177+v250630"
+        "name": "Create Aquatic Ambitions",
+        "version": "2.0.2"
     },
     {
-        "name": "Collective",
-        "url": "https://modrinth.com/mod/e0M1UDsY",
-        "version": "8.4"
+        "name": "Open Parties PvP Support",
+        "url": "https://github.com/nvb-uy/OpacPvP/",
+        "version": "1.0.0"
     },
     {
-        "name": "Sound Physics Remastered",
-        "url": "https://modrinth.com/mod/qyVF9oeo",
-        "version": "1.21.7-1.4.14"
+        "name": "Better Compatibility Checker",
+        "url": "https://github.com/nanite/BetterCompatibilityChecker",
+        "version": "21.1.8"
     },
     {
-        "name": "BetterF3",
-        "url": "https://modrinth.com/mod/8shC1gFX",
-        "version": "15.0.0"
+        "name": "Backpacked",
+        "url": "https://mrcrayfish.com/mods?id=backpacked",
+        "version": "3.0.5"
     },
     {
-        "name": "Mod Menu",
-        "url": "https://modrinth.com/mod/mOgUt4GM",
-        "version": "15.0.0-beta.3"
-    },
-    {
-        "name": "WorldEdit",
-        "url": "https://modrinth.com/mod/1u6JkXh5",
-        "version": "7.3.15-beta-02+9a50ff6"
-    },
-    {
-        "name": "Sodium Shadowy Path Blocks",
-        "url": "https://modrinth.com/mod/EIa1eiMm",
-        "version": "5.0.0"
-    },
-    {
-        "name": "Continuity",
-        "url": "https://modrinth.com/mod/1IjD5062",
-        "version": "3.0.1-test.4+1.21.5"
-    },
-    {
-        "name": "InvRestore",
-        "url": "https://modrinth.com/mod/neH5ooPP",
-        "version": "0.1.4"
-    },
-    {
-        "name": "Zoomify",
-        "url": "https://modrinth.com/mod/w7ThoJFB",
-        "version": "2.14.4+1.21.6"
-    },
-    {
-        "name": "Ledger",
-        "url": "https://modrinth.com/mod/LVN9ygNV",
-        "version": "1.3.12"
+        "name": "3d-Skin-Layers",
+        "url": "https://modrinth.com/mod/3dskinlayers",
+        "version": "1.11.1"
     },
     {
         "name": "Entity Model Features",
-        "url": "https://modrinth.com/mod/4I1XuqiY",
-        "version": "2.4.4"
+        "version": "3.0.17"
     },
     {
-        "name": "Model Gap Fix",
-        "url": "https://modrinth.com/mod/QdG47OkI",
-        "version": "1.21.5-1.12"
+        "name": "Toast Control",
+        "version": "9.0.1"
     },
     {
-        "name": "Placeholder API",
-        "url": "https://modrinth.com/mod/eXts2L7r",
-        "version": "2.7.1+1.21.6"
+        "name": "TxniLib",
+        "url": "https://github.com/txnimc/TxniLib/",
+        "version": "1.0.24"
     },
     {
-        "name": "Universal Graves",
-        "url": "https://modrinth.com/mod/yn9u3ypm",
-        "version": "3.8.1+1.21.6"
+        "name": "Create: Connected",
+        "url": "https://github.com/hlysine/create_connected",
+        "version": "1.1.13-mc1.21.1"
     },
     {
-        "name": "FerriteCore",
-        "url": "https://modrinth.com/mod/uXXizFIs",
-        "version": "8.0.0"
+        "name": "luna",
+        "version": "5.3.1"
+    },
+    {
+        "name": "FTB Teams",
+        "version": "2101.1.9"
+    },
+    {
+        "name": "Gears n' Kinetics",
+        "version": "1.0m"
+    },
+    {
+        "name": "Caelus API",
+        "url": "https://github.com/illusivesoulworks/caelus",
+        "version": "7.0.1+1.21.1"
+    },
+    {
+        "name": "Sodium Dynamic Lights",
+        "url": "https://github.com/txnimc/SodiumDynamicLights/",
+        "version": "1.0.9"
+    },
+    {
+        "name": "Create: Blaze Burner Fuels",
+        "url": "https://www.curseforge.com/members/robinfrt/projects",
+        "version": "1.0.0"
+    },
+    {
+        "name": "Sodium Options API",
+        "url": "https://github.com/txnimc/SodiumOptionsAPI/",
+        "version": "1.0.10"
+    },
+    {
+        "name": "Create Railways Navigator",
+        "version": "1.21.1-beta-0.8.5"
+    },
+    {
+        "name": "Create: Fast Schematic Cannon",
+        "version": "1.4.1-neoforge"
+    },
+    {
+        "name": "Paxi",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/paxi-neoforge",
+        "version": "1.21.1-NeoForge-5.1.3"
+    },
+    {
+        "name": "Create: Sound of Steam",
+        "version": "0.8.2+1.21.1"
+    },
+    {
+        "name": "Amendments",
+        "version": "1.21-2.0.15"
+    },
+    {
+        "name": "Create: Wrapped",
+        "url": "https://www.curseforge.com/members/robinfrt/projects",
+        "version": "1.0.0"
+    },
+    {
+        "name": "PrickleMC",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/prickle",
+        "version": "21.1.11"
     },
     {
         "name": "Entity Texture Features",
-        "url": "https://modrinth.com/mod/BVzZfTc1",
-        "version": "6.2.14"
+        "version": "7.0.13"
     },
     {
-        "name": "More Chat History",
-        "url": "https://modrinth.com/mod/8qkXwOnk",
-        "version": "1.3.1"
+        "name": "Create: Mobile Packages",
+        "url": "https://github.com/timplay33/Create-Mobile-Packages",
+        "version": "0.7.0"
+    },
+    {
+        "name": "Forgified Fabric API",
+        "url": "https://github.com/Sinytra/ForgifiedFabricAPI",
+        "version": "0.116.7+2.2.4+1.21.1\r"
+    },
+    {
+        "name": "Create: Mechanical Botany",
+        "version": "1.1.2"
+    },
+    {
+        "name": "PacketFixer",
+        "version": "3.3.1"
+    },
+    {
+        "name": "Create Chocolate Fountain",
+        "version": "1.21.1-1.1.0"
+    },
+    {
+        "name": "Just Enough Breeding",
+        "url": "https://github.com/Christofmeg/JustEnoughBreeding",
+        "version": "1.6.2"
+    },
+    {
+        "name": "All The Leaks",
+        "version": "1.1.7+1.21.1-neoforge"
+    },
+    {
+        "name": "Create: Trading Floor",
+        "version": "3.0.16"
+    },
+    {
+        "name": "Create: Blocks & Bogies",
+        "version": "1.0.7"
+    },
+    {
+        "name": "Searchables",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/searchables",
+        "version": "1.0.2"
+    },
+    {
+        "name": "Blueprint",
+        "url": "https://www.teamabnormals.com/mods/blueprint",
+        "version": "8.0.8"
+    },
+    {
+        "name": "Chat Heads",
+        "version": "0.15.0"
+    },
+    {
+        "name": "Create: Factory",
+        "version": "0.5a-1.21.1"
+    },
+    {
+        "name": "Neruina",
+        "version": "2.2.11"
+    },
+    {
+        "name": "Create: Tradeworks",
+        "url": "https://liukrast.net/",
+        "version": "1.0.6"
+    },
+    {
+        "name": "Melody",
+        "version": "1.0.10"
+    },
+    {
+        "name": "Placebo",
+        "version": "9.9.1"
+    },
+    {
+        "name": "Create Slice & Dice",
+        "version": "4.2.4"
+    },
+    {
+        "name": "Clumps",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/clumps",
+        "version": "19.0.0.1"
+    },
+    {
+        "name": "Create: Central Kitchen",
+        "url": "https://github.com/DragonsPlusMinecraft/CreateCentralKitchen",
+        "version": "2.3.0"
+    },
+    {
+        "name": "Personality",
+        "url": "https://www.teamabnormals.com/mods/personality",
+        "version": "5.0.1"
+    },
+    {
+        "name": "Curios API",
+        "url": "https://github.com/TheIllusiveC4/Curios",
+        "version": "9.5.1+1.21.1"
+    },
+    {
+        "name": "Lootintegrations mod",
+        "version": "4.7"
+    },
+    {
+        "name": "Create: Fantasizing Again",
+        "version": "1.1.1"
+    },
+    {
+        "name": "Drippy Loading Screen",
+        "version": "3.1.0"
+    },
+    {
+        "name": "EnchantmentDescriptions",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions",
+        "version": "21.1.9"
+    },
+    {
+        "name": "ImmediatelyFast",
+        "url": "https://www.curseforge.com/projects/686911",
+        "version": "1.6.10+1.21.1"
+    },
+    {
+        "name": "Visual Workbench",
+        "url": "https://github.com/Fuzss/visualworkbench",
+        "version": "21.1.1"
+    },
+    {
+        "name": "Collective",
+        "url": "https://serilum.com/mod/collective",
+        "version": "8.13"
+    },
+    {
+        "name": "Cupboard mod",
+        "version": "3.5"
+    },
+    {
+        "name": "Resource Pack Overrides",
+        "url": "https://github.com/Fuzss/resourcepackoverrides",
+        "version": "21.1.0"
+    },
+    {
+        "name": "Leaves Be Gone",
+        "url": "https://github.com/Fuzss/leavesbegone",
+        "version": "21.1.0"
+    },
+    {
+        "name": "EpheroLib",
+        "url": "https://discord.gg/GZjtAn3F6W",
+        "version": "1.2.0"
+    },
+    {
+        "name": "Integrated API",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/integrated_api",
+        "version": "1.7.2+1.21.1-neoforge"
+    },
+    {
+        "name": "Easy Anvils",
+        "url": "https://github.com/Fuzss/easyanvils",
+        "version": "21.1.0"
+    },
+    {
+        "name": "Easy Magic",
+        "url": "https://github.com/Fuzss/easymagic",
+        "version": "21.1.4"
+    },
+    {
+        "name": "BHMenu",
+        "version": "2.4.4"
+    },
+    {
+        "name": "Puzzles Lib",
+        "url": "https://github.com/Fuzss/puzzleslib",
+        "version": "21.1.39"
+    },
+    {
+        "name": "Create Cafe",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/create-cafe",
+        "version": "1.4.3"
+    },
+    {
+        "name": "biomemusic mod",
+        "version": "3.5"
+    },
+    {
+        "name": "Gallery",
+        "url": "https://www.teamabnormals.com/mods/gallery",
+        "version": "2.0.0"
+    },
+    {
+        "name": "Lithostitched",
+        "version": "1.6.5"
+    },
+    {
+        "name": "Xaero's World Map",
+        "version": "1.40.11"
+    },
+    {
+        "name": "Euphoria Patcher",
+        "url": "https://euphoriapatches.com",
+        "version": "1.8.6-r5.7.1-neoforge"
+    },
+    {
+        "name": "Create: Framed",
+        "version": "1.7.3"
+    },
+    {
+        "name": "ServerBrowser",
+        "version": "1.4.2"
+    },
+    {
+        "name": "What Are They Up To",
+        "version": "1.21.0-1.2.7"
+    },
+    {
+        "name": "Quark",
+        "version": "4.1-476"
+    },
+    {
+        "name": "Continuity",
+        "url": "https://modrinth.com/mod/continuity",
+        "version": "3.0.0+1.21.neoforge"
+    },
+    {
+        "name": "Zeta",
+        "version": "1.1-39"
+    },
+    {
+        "name": "YUNG's API",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-api-neoforge",
+        "version": "1.21.1-NeoForge-5.1.6"
+    },
+    {
+        "name": "Iceberg",
+        "url": "https://anthonyhilyard.com/",
+        "version": "1.3.2"
+    },
+    {
+        "name": "Copper Splashing Recipes",
+        "version": "1"
+    },
+    {
+        "name": "Framework",
+        "url": "https://mrcrayfish.com/mods?id=framework",
+        "version": "0.13.11"
+    },
+    {
+        "name": "CreateBetterFps",
+        "version": "1.1.3"
+    },
+    {
+        "name": "Xaero's Minimap",
+        "version": "25.3.10"
+    },
+    {
+        "name": "Mouse Tweaks",
+        "url": "https://minecraft.curseforge.com/projects/mouse-tweaks",
+        "version": "2.26.1"
+    },
+    {
+        "name": "Trading Post",
+        "url": "https://github.com/Fuzss/tradingpost",
+        "version": "21.1.1"
+    },
+    {
+        "name": "Create: Dreams n' Desires",
+        "url": "https://discord.gg/w5VCHxu6Uv",
+        "version": "2.2d-BETA"
+    },
+    {
+        "name": "clientcrafting mod",
+        "version": "1.9"
+    },
+    {
+        "name": "Cherished Worlds",
+        "url": "https://github.com/illusivesoulworks/cherishedworlds",
+        "version": "10.1.1+1.21.1"
+    },
+    {
+        "name": "Konkrete",
+        "version": "1.9.9"
+    },
+    {
+        "name": "FTB Filter System",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ftb-filter-system",
+        "version": "21.1.4"
+    },
+    {
+        "name": "Moonlight Lib",
+        "version": "1.21-2.29.26"
+    },
+    {
+        "name": "Corpse",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/corpse",
+        "version": "1.21.1-1.1.13"
+    },
+    {
+        "name": "kotlinforforge-5.11.0-all"
+    },
+    {
+        "name": "Create:Mechanical Confection",
+        "version": "0.3.0"
+    },
+    {
+        "name": "Create Diesel Generators",
+        "version": "1.21.1-1.3.8"
+    },
+    {
+        "name": "Farmer's Delight",
+        "url": "https://github.com/vectorwing/FarmersDelight",
+        "version": "1.2.10"
+    },
+    {
+        "name": "Reese's Sodium Options",
+        "version": "1.8.3+mc1.21.4"
+    },
+    {
+        "name": "Connectivity Mod",
+        "version": "7.6"
+    },
+    {
+        "name": "Sodium Extras",
+        "url": "https://github.com/txnimc/SodiumExtras/",
+        "version": "1.0.7"
+    },
+    {
+        "name": "Polymorph",
+        "url": "https://github.com/illusivesoulworks/polymorph",
+        "version": "1.1.0+1.21.1"
+    },
+    {
+        "name": "Create: Bells & Whistles",
+        "version": "0.4.7-1.21.1"
+    },
+    {
+        "name": "Gpu memory leak fix",
+        "version": "1.8"
+    },
+    {
+        "name": "Design n' Decor",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/create-design-n-decor",
+        "version": "2.1.0"
+    },
+    {
+        "name": "GeckoLib 4",
+        "url": "http://geckolib.com/",
+        "version": "4.8.4"
+    },
+    {
+        "name": "Open Parties and Claims",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/open-parties-and-claims",
+        "version": "0.25.10"
+    },
+    {
+        "name": "Create: Vibrant Vaults",
+        "url": "https://github.com/ZLT9/create-vibrant-vaults",
+        "version": "0.3.2"
+    },
+    {
+        "name": "connector-2.0.0-beta.14+1.21.1-full"
+    },
+    {
+        "name": "Create Bits 'n' Bobs",
+        "version": "0.0.44"
+    },
+    {
+        "name": "Create: Generators",
+        "url": "https://www.curseforge.com/members/robinfrt/projects",
+        "version": "1.0.0"
+    },
+    {
+        "name": "leaky mod",
+        "version": "2.4"
+    },
+    {
+        "name": "Balm",
+        "url": "https://mods.twelveiterations.com/",
+        "version": "21.0.56"
+    },
+    {
+        "name": "Create: Transmission",
+        "version": "1.1.0+neoforge-create6-1.21.1"
+    },
+    {
+        "name": "Smarter Farmers",
+        "version": "1.21-2.2.4"
+    },
+    {
+        "name": "All of Create Core",
+        "version": "2"
+    },
+    {
+        "name": "Configured Defaults",
+        "url": "https://github.com/Fuzss/configureddefaults",
+        "version": "21.1.3"
+    },
+    {
+        "name": "NetherPortalFix",
+        "url": "https://mods.twelveiterations.com/",
+        "version": "21.1.1"
+    },
+    {
+        "name": "Ferrite Core",
+        "url": "https://www.curseforge.com/projects/429235",
+        "version": "7.0.3"
+    },
+    {
+        "name": "Patchouli",
+        "version": "1.21.1-93-NEOFORGE\r"
+    },
+    {
+        "name": "FancyMenu",
+        "version": "3.8.1"
+    },
+    {
+        "name": "Create: Metalwork",
+        "version": "2.0.0"
+    },
+    {
+        "name": "Handcrafted",
+        "url": "https://modrinth.com/mod/handcrafted",
+        "version": "4.0.3"
+    },
+    {
+        "name": "Create: Escalated",
+        "version": "1.2.1"
+    },
+    {
+        "name": "Create: Enchantment Industry",
+        "url": "https://github.com/DragonsPlusMinecraft/CreateEnchantmentIndustry",
+        "version": "2.3.0"
+    },
+    {
+        "name": "Create: Deep Dark",
+        "url": "https://www.curseforge.com/members/robinfrt/projects",
+        "version": "1.7.0"
+    },
+    {
+        "name": "Boatload",
+        "url": "https://www.teamabnormals.com/mods/boatload",
+        "version": "6.0.2"
     },
     {
         "name": "Iris",
-        "url": "https://modrinth.com/mod/YL57xq9U",
-        "version": "1.9.1+mc1.21.7"
+        "version": "1.8.12-snapshot+mc1.21.1-local"
     },
     {
-        "name": "LambDynamicLights",
-        "url": "https://modrinth.com/mod/yBW8D80W",
-        "version": "4.3.0+1.21.6"
+        "name": "FTB Quests",
+        "version": "2101.1.23"
     },
     {
-        "name": "Dynamic FPS",
-        "url": "https://modrinth.com/mod/LQ3K71Q1",
-        "version": "3.9.6"
+        "name": "Integrated Stronghold",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/integrated-stronghold",
+        "version": "1.1.4+1.21.1-neoforge"
     },
     {
-        "name": "MixinTrace",
-        "url": "https://modrinth.com/mod/sGmHWmeL",
-        "version": "1.1.1+1.17"
+        "name": "Create: Pattern Schematics",
+        "version": "2.0.10"
     },
     {
-        "name": "Cristel Lib",
-        "url": "https://modrinth.com/mod/cl223EMc",
-        "version": "2.0.3"
+        "name": "Extra Create Recipes",
+        "version": "1"
+    },
+    {
+        "name": "CoroUtil",
+        "version": "1.21.0-1.3.9"
+    },
+    {
+        "name": "Simple RPC",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/simple-discord-rpc/",
+        "version": "4.1.0+hotfix.1"
+    },
+    {
+        "name": "recipeessentials mod",
+        "version": "4.0"
+    },
+    {
+        "name": "Create: Garnished",
+        "version": "0.1.7.4"
+    },
+    {
+        "name": "Create: Totem Factory",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/create-totem-factory",
+        "version": "1.1.0.1"
+    },
+    {
+        "name": "Create Train Parts",
+        "version": "0.3.6"
+    },
+    {
+        "name": "Create: Rubberworks",
+        "version": "1.1"
+    },
+    {
+        "name": "Sodium",
+        "version": "0.6.13+mc1.21.1"
+    },
+    {
+        "name": "Boat Item View",
+        "url": "https://github.com/50ap5ud5/BoatItemView",
+        "version": "0.0.6"
+    },
+    {
+        "name": "CraterLib",
+        "url": "https://modrinth.com/mod/craterlib",
+        "version": "3.1.0"
+    },
+    {
+        "name": "Just Enough Professions (JEP)",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/just-enough-professions-jep",
+        "version": "4.0.4\r"
+    },
+    {
+        "name": "Create",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/create",
+        "version": "6.0.9"
+    },
+    {
+        "name": "Create Stuff & Additions",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/create-stuff-additions",
+        "version": "2.0.9"
+    },
+    {
+        "name": "ModernFix",
+        "url": "https://modrinth.com/mod/modernfix",
+        "version": "5.26.1+mc1.21.1"
+    },
+    {
+        "name": "Create: Integrated Farming",
+        "url": "https://github.com/DragonsPlusMinecraft/CreateIntegratedFarming",
+        "version": "1.2.1"
+    },
+    {
+        "name": "Controlling",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/controlling",
+        "version": "19.0.5"
+    },
+    {
+        "name": "Create Optical Mod",
+        "version": "0.4.1"
+    },
+    {
+        "name": "Despawn Tweaks",
+        "url": "https://github.com/txnimc/DespawnTweaks/",
+        "version": "1.0.0"
+    },
+    {
+        "name": "Lithium",
+        "version": "0.15.3+mc1.21.1"
+    },
+    {
+        "name": "Crash Assistant",
+        "version": "1.11.6"
+    },
+    {
+        "name": "Chunk Activity Tracker",
+        "url": "https://github.com/txnimc/ChunkActivityTracker/",
+        "version": "1.0.1"
+    },
+    {
+        "name": "Supplementaries",
+        "version": "1.21-3.5.29"
+    },
+    {
+        "name": "Just Enough Items",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/jei",
+        "version": "19.27.0.336"
+    },
+    {
+        "name": "Create: Food",
+        "url": "https://github.com/AverageAnime/create-food-multiloader",
+        "version": "2.2.0a"
+    },
+    {
+        "name": "Highlighter",
+        "url": "https://anthonyhilyard.com/",
+        "version": "1.1.11"
+    },
+    {
+        "name": "No Chat Reports",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/no-chat-reports",
+        "version": "1.21.1-v2.9.1"
+    },
+    {
+        "name": "Create More: Package Couriers",
+        "version": "2.2.1"
+    },
+    {
+        "name": "Integrtaed Dungeons and Structures",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/idas",
+        "version": "1.13.4+1.21.1-neoforge"
+    },
+    {
+        "name": "Resourceful Lib",
+        "version": "3.0.12"
+    },
+    {
+        "name": "Structure Essentials mod",
+        "version": "4.8"
+    },
+    {
+        "name": "Item Obliterator",
+        "version": "2.3.0"
+    },
+    {
+        "name": "Create:Schematic Checker",
+        "url": "https://modrinth.com/project/createschematicchecker",
+        "version": "0.21.18-6.0"
+    },
+    {
+        "name": "Load My F***ing Tags",
+        "version": "1.1.1+1.21.9"
+    },
+    {
+        "name": "Create Hypertube",
+        "url": "http://pedrorok.com",
+        "version": "0.4.0"
+    },
+    {
+        "name": "Create Crafts & Additions",
+        "url": "https://github.com/mrh0/createaddition",
+        "version": "1.5.10"
+    },
+    {
+        "name": "Smoothchunk mod",
+        "version": "4.1"
+    },
+    {
+        "name": "FTB XMod Compat",
+        "version": "21.1.8"
+    },
+    {
+        "name": "Create: Winery",
+        "url": "https://www.curseforge.com/members/robinfrt/projects",
+        "version": "2.0.0"
+    },
+    {
+        "name": "Bad Wither No Cookie Reloaded",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/bad-wither-no-cookie-reloaded",
+        "version": "3.20.3\r"
+    },
+    {
+        "name": "TerraBlender",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/terrablender",
+        "version": "4.1.0.8\r"
+    },
+    {
+        "name": "Integrated Villages",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/integrated-villages",
+        "version": "1.3.2+1.21.1-neoforge"
+    },
+    {
+        "name": "FTB Library",
+        "version": "2101.1.31"
+    },
+    {
+        "name": "Architectury",
+        "version": "13.0.8"
+    },
+    {
+        "name": "Create: Copycats+",
+        "url": "https://github.com/copycats-plus/copycats",
+        "version": "3.0.4+mc.1.21.1-neoforge"
+    },
+    {
+        "name": "Create Encased",
+        "version": "1.8-ht2"
+    },
+    {
+        "name": "AppleSkin",
+        "url": "https://github.com/squeek502/AppleSkin",
+        "version": "3.0.9+mc1.21\r"
+    },
+    {
+        "name": "chunksending mod",
+        "version": "2.8"
+    },
+    {
+        "name": "Krypton Hybrid",
+        "url": "https://www.curseforge.com/projects/1474749",
+        "version": "0.2.30"
+    },
+    {
+        "name": "LPC NeoForge",
+        "url": "https://www.curseforge.com/projects/1154751",
+        "version": "1.21.1-3"
+    },
+    {
+        "name": "LuckPerms",
+        "url": "https://www.curseforge.com/projects/431733",
+        "version": "5.4.140"
+    },
+    {
+        "name": "spark",
+        "url": "https://www.curseforge.com/projects/361579",
+        "version": "1.10.124"
+    },
+    {
+        "name": "Modflared",
+        "url": "https://www.curseforge.com/projects/997330",
+        "version": "1.2.2+release.81"
+    },
+    {
+        "name": ".connector"
+    },
+    {
+        "name": "Gravestone Mod",
+        "url": "https://www.curseforge.com/projects/238551",
+        "version": "1.21.1-1.0.35"
+    },
+    {
+        "name": "Gravestone Curios Compatibility",
+        "url": "https://www.curseforge.com/projects/1139062",
+        "version": "4.0.2"
+    },
+    {
+        "name": "Chunky Offline",
+        "url": "https://modrinth.com/mod/VfHc5JEX",
+        "version": "1-v1.1.0"
     },
     {
         "name": "Chunky",
         "url": "https://modrinth.com/mod/fALzjamp",
-        "version": "1.4.40"
+        "version": "1.4.23"
     },
     {
-        "name": "AntiXray",
-        "url": "https://modrinth.com/mod/sml2FMaA",
-        "version": "1.4.10"
+        "name": "BaguetteLib",
+        "url": "https://www.curseforge.com/projects/1264423",
+        "version": "2.0.3"
     }
 ]

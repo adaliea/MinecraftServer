@@ -4,125 +4,40 @@ services:
     tty: true
     stdin_open: true
     ports:
-    - 25565:25565
+      - "25565:25565"
+      - "8100:8100"
     environment:
-      EULA: 'TRUE'
-      TYPE: FABRIC
-      VERSION: 1.21.7
-      MEMORY: 12500M
-      MOTD: Adalie's MC Server
-      USE_AIKAR_FLAGS: 'true'
-      TZ: America/Los_Angeles
-      DIFFICULTY: '3'
-      ENABLE_COMMAND_BLOCK: 'true'
-      SIMULATION_DISTANCE: '12'
-      VIEW_DISTANCE: '32'
-      REGION_FILE_COMPRESSION: lz4
-      SYNC_CHUNK_WRITES: 'false'
-      OPS: DaCubeKing
-      EXISTING_OPS_FILE: SYNCHRONIZE
-      ENABLE_WHITELIST: 'true'
-      WHITELIST: DaCubeKing
-      EXISTING_WHITELIST_FILE: MERGE
-      REMOVE_OLD_MODS: true
-      REMOVE_OLD_MODS_INCLUDE: '*.jar'
-      REMOVE_OLD_MODS_DEPTH: 1
-      MODRINTH_PROJECTS: 'PtjYWJkn:v7JHUEiF
-
-        gZ09gTMv:HRaM9kHT
-
-        g96Z4WVZ:VLDb95oX
-
-        P7dR8mSH:JIZogEYa
-
-        M08ruV16:ODwC9dEb
-
-        fQEb0iXm:neW85eWt
-
-        AANobbMI:ND4ROcMQ
-
-        wnEe9KBa:fcuAO34V
-
-        ZVzW5oNS:eTXZb5Wq
-
-        uRHq6kbO:cwLGPoai
-
-        l6YH9Als:wPYvarTa
-
-        n6PXGAoM:tWxry96X
-
-        gvQqBUqZ:77EtzYFA
-
-        fdZkP5Bb:xKC3g1t3
-
-        Vebnzrzj:WBIpgXZQ
-
-        Bh37bMuy:AgGRyydH
-
-        Ha28R6CL:mccDBWqV
-
-        5ZwdcRci:cuRqLEAA
-
-        1eAoo2KR:WxYlHLu6
-
-        Eldc1g37:vG8asQVB
-
-        jE0SjGuf:jKhQJW1O
-
-        xGdtZczs:YWXh0Bbd
-
-        TQTTVgYE:RXcxPvgC
-
-        e0M1UDsY:1vOnuu89
-
-        qyVF9oeo:acb0kJIr
-
-        8shC1gFX:DHCqyQtH
-
-        mOgUt4GM:JY1tNj8H
-
-        1u6JkXh5:3HceS8fQ
-
-        EIa1eiMm:RkAlGPsT
-
-        1IjD5062:kravz06U
-
-        neH5ooPP:E1od7pej
-
-        w7ThoJFB:Smt2Lxmo
-
-        LVN9ygNV:f3h7no4G
-
-        4I1XuqiY:N0YnseYc
-
-        QdG47OkI:WcDxGReS
-
-        eXts2L7r:wg33PHxj
-
-        yn9u3ypm:gdZmLCZD
-
-        uXXizFIs:CtMpt7Jr
-
-        BVzZfTc1:aEVKKdXX
-
-        8qkXwOnk:3siYJiWG
-
-        YL57xq9U:l77DAK6U
-
-        yBW8D80W:eNZaVVBz
-
-        LQ3K71Q1:PqIDU2GY
-
-        sGmHWmeL:LGYOH4RN
-
-        cl223EMc:bgdjh4pG
-
-        fALzjamp:inWDi2cf
-
-        sml2FMaA:8oiUayeD'
-      MODRINTH_DOWNLOAD_DEPENDENCIES: required
-      MODRINTH_ALLOWED_VERSION_TYPE: alpha
-      VANILLATWEAKS_SHARECODE: 4ouSfl
-      ENABLE_ROLLING_LOGS: 'true'
+      EULA: "TRUE"
+      TYPE: "AUTO_CURSEFORGE"
+      CF_PAGE_URL: "https://www.curseforge.com/minecraft/modpacks/aoc/files/7870055"
+      CF_API_KEY: "${CF_API_KEY}"
+      # Extra mods not in the base pack (CurseForge project IDs)
+      CURSEFORGE_FILES: |
+        431733
+        1154751
+        361579
+        997330
+        238551
+        1139062
+        1264423
+        1474749
+      # Extra mods not on CurseForge (Modrinth project IDs)
+      MODRINTH_PROJECTS: |
+        fALzjamp
+        VfHc5JEX
+      MEMORY: "12288M"
+      MOTD: "All of Create 1.21.1"
+      USE_MEOWICE_FLAGS: "true"
+      TZ: "America/Los_Angeles"
+      DIFFICULTY: "3"
+      ENABLE_COMMAND_BLOCK: "true"
+      ENTITY_BROADCAST_RANGE_PERCENTAGE: "200"
+      VIEW_DISTANCE: "18"
+      SPAWN_PROTECTION: "0"
+      SYNC_CHUNK_WRITES: "false"
+      ENABLE_WHITELIST: "true"
+      VANILLATWEAKS_SHARECODE: "3sQdEZ"
+      ANNOUNCE_PLAYER_ACHIEVEMENTS: "true"
+      ENABLE_ROLLING_LOGS: "true"
     volumes:
-    - ./data:/data
+      - "./data:/data"

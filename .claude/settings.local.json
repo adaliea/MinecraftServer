@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:docker-minecraft-server.readthedocs.io)",
+      "WebFetch(domain:raw.githubusercontent.com)"
+    ]
+  }
+}
