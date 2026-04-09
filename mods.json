@@ -508,7 +508,9 @@
         "version": "1.21.1-1.1.13"
     },
     {
-        "name": "kotlinforforge-5.11.0-all"
+        "name": "Kotlin for Forge",
+        "url": "https://modrinth.com/mod/ordsPcFz",
+        "version": "NrSebcsG"
     },
     {
         "name": "Create:Mechanical Confection",
@@ -940,5 +942,25 @@
         "name": "BaguetteLib",
         "url": "https://www.curseforge.com/projects/1264423",
         "version": "2.0.3"
+    },
+    {
+        "name": "Create: CC Total Logistics",
+        "url": "https://modrinth.com/mod/FuyTRq2g",
+        "version": "0.3.6"
+    },
+    {
+        "name": "Create: CC Better Recipes",
+        "url": "https://modrinth.com/mod/WZfuGM1m",
+        "version": "1.2.0"
+    },
+    {
+        "name": "CC: Tweaked",
+        "url": "https://modrinth.com/mod/gu7yAYhd",
+        "version": "1.117.1"
+    },
+    {
+        "name": "CC:C Bridge",
+        "url": "https://modrinth.com/mod/fXt291FO",
+        "version": "1.7.2"
     }
 ]
