@@ -39,14 +39,15 @@ services:
       #   FuyTRq2g        = Create: CC Total Logistics
       #   WZfuGM1m        = Create: CC Better Recipes
       #   cc-tweaked:...  = CC: Tweaked (pinned version)
-      # Note: LuckPerms is placed manually in data/mods/ as a CI build (5.5.42)
-      #       because no fixed version exists on Modrinth for NeoForge 1.21.1
+      #   luckperms:r3YKerOl = LuckPerms v5.4.158-neoforge (version ID bypasses game version check;
+      #                         tagged 1.21.5 on Modrinth but is a NeoForge build that works on 1.21.1)
       MODRINTH_PROJECTS: |
         fALzjamp
         VfHc5JEX
         FuyTRq2g
         WZfuGM1m
         cc-tweaked:ZlZHN512
+        luckperms:r3YKerOl
       MEMORY: "12288M"
       MOTD: "All of Create 1.21.1"
       USE_MEOWICE_FLAGS: "true"
