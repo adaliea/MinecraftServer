@@ -24,7 +24,6 @@ services:
       #   431725  = Advanced Peripherals
       #   656214  = CC:C Bridge (Create integration)
       CURSEFORGE_FILES: |
-        431733
         361579
         997330
         238551
@@ -45,6 +44,7 @@ services:
         FuyTRq2g
         WZfuGM1m
         cc-tweaked:ZlZHN512
+        luckperms:v5.4.140-neoforge
       MEMORY: "12288M"
       MOTD: "All of Create 1.21.1"
       USE_MEOWICE_FLAGS: "true"
