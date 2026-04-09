@@ -44,7 +44,7 @@ services:
         FuyTRq2g
         WZfuGM1m
         cc-tweaked:ZlZHN512
-        luckperms:v5.4.140-neoforge
+        luckperms:v5.4.158-neoforge
       MEMORY: "12288M"
       MOTD: "All of Create 1.21.1"
       USE_MEOWICE_FLAGS: "true"
