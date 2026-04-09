@@ -47,7 +47,7 @@ services:
         FuyTRq2g
         WZfuGM1m
         cc-tweaked:ZlZHN512
-        luckperms:r3YKerOl
+        luckperms:dKAPoPGd
       MEMORY: "12288M"
       MOTD: "All of Create 1.21.1"
       USE_MEOWICE_FLAGS: "true"
