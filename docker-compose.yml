@@ -44,7 +44,7 @@ services:
         VfHc5JEX
         FuyTRq2g
         WZfuGM1m
-        cc-tweaked
+        cc-tweaked:ZlZHN512
       MEMORY: "12288M"
       MOTD: "All of Create 1.21.1"
       USE_MEOWICE_FLAGS: "true"
