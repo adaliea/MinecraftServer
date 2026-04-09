@@ -32,7 +32,7 @@ services:
         1264423
         1474749
         1152077
-        282001
+        431725
         656214
       # Extra mods not on CurseForge (Modrinth project IDs):
       #   fALzjamp = Chunky
@@ -44,6 +44,7 @@ services:
         VfHc5JEX
         FuyTRq2g
         WZfuGM1m
+        cc-tweaked
       MEMORY: "12288M"
       MOTD: "All of Create 1.21.1"
       USE_MEOWICE_FLAGS: "true"
