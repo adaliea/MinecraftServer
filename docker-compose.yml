@@ -60,7 +60,7 @@ services:
         yungs-better-witch-huts
         yungs-better-desert-temples
         yungs-extras
-        camera-mod
+        camera-mod:7jcUsKq0
         anti-xray
       MEMORY: "12288M"
       MOTD: "All of Create 1.21.1"
