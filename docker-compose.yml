@@ -48,7 +48,7 @@ services:
         WZfuGM1m
         cc-tweaked:ZlZHN512
         luckperms:dKAPoPGd
-        a8zCwdaO
+        critters-and-companions
         worldedit
         towns-and-towers
         yungs-better-nether-fortresses
@@ -56,7 +56,6 @@ services:
         yungs-better-dungeons
         yungs-better-jungle-temples
         yungs-better-mineshafts
-        yungs-better-end-island
         yungs-better-strongholds
         yungs-better-witch-huts
         yungs-better-desert-temples
