@@ -62,6 +62,7 @@ services:
         yungs-extras
         camera-mod:7jcUsKq0
         anti-xray
+        cristel-lib
       MEMORY: "12288M"
       MOTD: "All of Create 1.21.1"
       USE_MEOWICE_FLAGS: "true"
