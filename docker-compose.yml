@@ -1,5 +1,6 @@
 services:
   mc:
+    restart: unless-stopped
     image: itzg/minecraft-server:latest
     tty: true
     stdin_open: true
