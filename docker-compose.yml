@@ -64,7 +64,7 @@ services:
         camera-mod:7jcUsKq0
         anti-xray
         cristel-lib
-      MEMORY: "12288M"
+      MEMORY: "10288M"
       MOTD: "All of Create 1.21.1"
       USE_MEOWICE_FLAGS: "true"
       TZ: "America/Los_Angeles"
