@@ -82,3 +82,31 @@ services:
     volumes:
       - "./data:/data"
       - ./downloads:/downloads
+
+  restore-backup:
+    # Same image as mc, but any base image with bash and tar will work
+    # Only runs when explicitly requested: docker compose --profile restore up restore-backup
+    profiles:
+      - restore
+    image: itzg/mc-backup
+    restart: "no"
+    entrypoint: restore-tar-backup
+    volumes:
+      # Must be same mount as mc service, needs to be writable
+      - ./data:/data
+      # Must be same mount as backups service, but can be read-only
+      - ./mc-backups:/backups:ro
+  backups:
+    image: itzg/mc-backup
+    depends_on:
+      mc:
+        condition: service_healthy
+    environment:
+      NAME_WITH_VERSION: true
+      BACKUP_INTERVAL: "24h"
+      RCON_HOST: mc
+      # since this service waits for mc to be healthy, no initial delay is needed
+      INITIAL_DELAY: 0
+    volumes:
+      - ./data:/data:ro
+      - ./mc-backups:/backups
