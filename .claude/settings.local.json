@@ -22,7 +22,8 @@
       "Bash(curl -s 'https://api.modrinth.com/v2/project/Vebnzrzj/version?loaders=[%22neoforge%22]&game_versions=[%221.21.1%22]' -H 'User-Agent: MinecraftServerSetup/1.0')",
       "Bash(curl -sG https://api.modrinth.com/v2/project/Vebnzrzj/version --data-urlencode 'loaders=[\"neoforge\"]' --data-urlencode 'game_versions=[\"1.21.1\"]' -H 'User-Agent: MinecraftServerSetup/1.0')",
       "Bash(curl -sG https://api.modrinth.com/v2/project/Vebnzrzj/version --data-urlencode 'loaders=[\"neoforge\"]' -H 'User-Agent: MinecraftServerSetup/1.0')",
-      "WebFetch(domain:github.com)"
+      "WebFetch(domain:github.com)",
+      "WebSearch"
     ]
   }
 }
