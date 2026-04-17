@@ -62,7 +62,6 @@ services:
         yungs-better-desert-temples
         yungs-extras
         camera-mod:7jcUsKq0
-        anti-xray
         cristel-lib
       MEMORY: "10288M"
       MOTD: "All of Create 1.21.1"
