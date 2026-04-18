@@ -63,6 +63,8 @@ services:
         yungs-extras
         camera-mod:7jcUsKq0
         cristel-lib
+        create-aeronautics
+        sable
       MEMORY: "10288M"
       MOTD: "All of Create 1.21.1"
       USE_MEOWICE_FLAGS: "true"
