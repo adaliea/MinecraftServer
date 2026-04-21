@@ -34,7 +34,7 @@ services:
         431725
         656214
         997252
-      CF_OVERRIDES_EXCLUSIONS: |
+      CF_EXCLUDE_MODS: |
         leaves-be-gone
       # Extra mods not on CurseForge (Modrinth project IDs):
       #   fALzjamp        = Chunky
