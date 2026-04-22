@@ -34,7 +34,7 @@ services:
         431725
         656214
         997252
-        distant-horizons:508933
+        distant-horizons
 
       CF_EXCLUDE_MODS: |
         leaves-be-gone
