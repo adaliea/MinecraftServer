@@ -34,6 +34,8 @@ services:
         431725
         656214
         997252
+        distant-horizons:508933
+
       CF_EXCLUDE_MODS: |
         leaves-be-gone
       # Extra mods not on CurseForge (Modrinth project IDs):
@@ -67,7 +69,6 @@ services:
         cristel-lib
         create-aeronautics
         sable
-        distanthorizons:VH8Pl4yr
       MEMORY: "10288M"
       MOTD: "All of Create 1.21.1"
       USE_MEOWICE_FLAGS: "true"
