@@ -84,31 +84,51 @@ services:
     volumes:
       - "./data:/data"
       - ./downloads:/downloads
-
   restore-backup:
-    # Same image as mc, but any base image with bash and tar will work
-    # Only runs when explicitly requested: docker compose --profile restore up restore-backup
+    # The 'restore' profile ensures this container does NOT start automatically
+    # when you run 'docker compose up -d'. It only runs when explicitly called.
     profiles:
       - restore
     image: itzg/mc-backup
     restart: "no"
-    entrypoint: restore-tar-backup
+    entrypoint: restore-restic-backup
+    environment:
+      RESTIC_REPOSITORY: "s3:https://f5dbfc5cf299cd799bf49f258675f82b.r2.cloudflarestorage.com/minecraft-backups"
+      RESTIC_PASSWORD: ${RESTIC_PASSWORD}
+      AWS_ACCESS_KEY_ID: ${R2_ACCESS_KEY_ID}
+      AWS_SECRET_ACCESS_KEY: ${R2_SECRET_ACCESS_KEY}
+      
+      # By default, it restores the most recent backup. 
+      # If you want a specific one, you can uncomment this and put the snapshot ID here:
+      # RESTIC_SNAPSHOT: "latest"
     volumes:
-      # Must be same mount as mc service, needs to be writable
+      # Must be mounted read/write so it can overwrite your world files
       - ./data:/data
-      # Must be same mount as backups service, but can be read-only
-      - ./mc-backups:/backups:ro
   backups:
     image: itzg/mc-backup
     depends_on:
       mc:
         condition: service_healthy
     environment:
-      NAME_WITH_VERSION: true
+      NAME_WITH_VERSION: "true"
       BACKUP_INTERVAL: "24h"
       RCON_HOST: mc
-      # since this service waits for mc to be healthy, no initial delay is needed
       INITIAL_DELAY: 0
+      
+      BACKUP_METHOD: "restic"
+      
+      RESTIC_REPOSITORY: "s3:https://f5dbfc5cf299cd799bf49f258675f82b.r2.cloudflarestorage.com/minecraft-backups"
+      
+      # Put these secrets in your .env file
+      RESTIC_PASSWORD: ${RESTIC_PASSWORD}
+      AWS_ACCESS_KEY_ID: ${R2_ACCESS_KEY_ID}
+      AWS_SECRET_ACCESS_KEY: ${R2_SECRET_ACCESS_KEY}
+      
+      # Tells Restic to prune old backups so you only keep exactly 1 week (7 days) of history
+      PRUNE_RESTIC_RETENTION: "--keep-within 7d"
+      
+      # Hardcode a hostname so Restic doesn't get confused if the container is recreated
+      RESTIC_HOSTNAME: "minecraft-smp-server"
+      
     volumes:
       - ./data:/data:ro
-      - ./mc-backups:/backups
