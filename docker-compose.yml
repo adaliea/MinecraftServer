@@ -38,7 +38,6 @@ services:
 
       CF_EXCLUDE_MODS: |
         leaves-be-gone
-        create
       # Extra mods not on CurseForge (Modrinth project IDs):
       #   fALzjamp        = Chunky
       #   VfHc5JEX        = Chunky Offline
@@ -68,9 +67,8 @@ services:
         yungs-extras
         camera-mod:7jcUsKq0
         cristel-lib
-        create-aeronautics
+        create-aeronautics:trnVk44s
         sable
-        create
         distanthorizons:VH8Pl4yr
       MEMORY: "10288M"
       MOTD: "All of Create 1.21.1"
