@@ -87,7 +87,7 @@ services:
     volumes:
       - "./data:/data"
       - ./downloads:/downloads
-  rrestore-backup:
+  restore-backup:
     profiles:
       - restore
     image: itzg/mc-backup
