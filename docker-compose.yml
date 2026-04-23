@@ -1,7 +1,7 @@
 services:
   mc:
     restart: unless-stopped
-    image: itzg/minecraft-server:latest
+    image: itzg/minecraft-server:java25
     tty: true
     stdin_open: true
     ports:
