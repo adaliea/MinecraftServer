@@ -1,7 +1,7 @@
 #!/bin/bash
 
-REMOTE_USER="adalie"
-REMOTE_HOST="adalie-linux"
+REMOTE_USER="ubuntu"
+REMOTE_HOST="play.dacubeking.com"
 REMOTE_DIR="~/MinecraftServer"
 
 # Get commit message from arg or prompt
