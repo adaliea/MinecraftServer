@@ -69,7 +69,7 @@ services:
         camera-mod:7jcUsKq0
         cristel-lib
         create-aeronautics:FIeWE7UC
-        sable:FIeWE7UC
+        sable:25Tb5FTZ
         distanthorizons:VH8Pl4yr
       MEMORY: "18G"
       MOTD: "All of Create 1.21.1"
