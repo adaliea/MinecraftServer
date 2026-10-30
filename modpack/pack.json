@@ -1,0 +1,46 @@
+{
+  "name": "dacubeking SMP",
+  "summary": "Vanilla-plus client for play.dacubeking.com: performance, shaders, Distant Horizons and voice chat",
+  "minecraft": "26.3",
+  "server": {"name": "dacubeking SMP", "address": "play.dacubeking.com"},
+  "mods": [
+    {"slug": "fabric-api"},
+
+    {"slug": "sodium", "beta": true},
+    {"slug": "sodium-extra", "beta": true},
+    {"slug": "reeses-sodium-options", "beta": true},
+    {"slug": "lithium"},
+    {"slug": "ferrite-core"},
+    {"slug": "entityculling"},
+    {"slug": "moreculling"},
+    {"slug": "immediatelyfast"},
+    {"slug": "dynamic-fps"},
+    {"slug": "krypton"},
+
+    {"slug": "iris"},
+    {"slug": "continuity"},
+    {"slug": "lambdynamiclights"},
+    {"slug": "3dskinlayers"},
+
+    {"slug": "distanthorizons"},
+    {"slug": "simple-voice-chat", "version": "x9jLR94Q"},
+    {"slug": "no-chat-reports"},
+
+    {"slug": "modmenu"},
+    {"slug": "zoomify"},
+    {"slug": "appleskin"},
+    {"slug": "jade"},
+    {"slug": "mouse-tweaks"},
+    {"slug": "controlling"},
+    {"slug": "shulkerboxtooltip"},
+    {"slug": "chat-heads"},
+    {"slug": "xaeros-minimap", "optional": true},
+    {"slug": "xaeros-world-map", "optional": true}
+  ],
+  "shaderpacks": [
+    {"slug": "complementary-reimagined"},
+    {"slug": "complementary-unbound", "optional": true},
+    {"slug": "photon-shader", "optional": true},
+    {"slug": "makeup-ultra-fast-shaders", "optional": true}
+  ]
+}
