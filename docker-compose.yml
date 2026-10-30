@@ -63,6 +63,7 @@ services:
         invview
         worldedit
         essential-commands
+        bluemap
         # Worldgen (vanilla blocks only; removing later just leaves chunk borders)
         tectonic
         terralith
@@ -73,6 +74,21 @@ services:
         dungeons-and-taverns
     volumes:
       - "./data:/data"
+  # Exposes the BlueMap web map (mc:8100) through a Cloudflare Tunnel instead of a public port.
+  # Public hostname -> http://mc:8100 is configured on the tunnel in the Cloudflare dashboard.
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    command: tunnel --no-autoupdate run
+    environment:
+      TUNNEL_TOKEN: ${CLOUDFLARE_TUNNEL_TOKEN}
+    depends_on:
+      - mc
   restore-backup:
     profiles:
       - restore
