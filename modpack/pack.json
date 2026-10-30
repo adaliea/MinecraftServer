@@ -3,8 +3,10 @@
   "summary": "Vanilla-plus client for play.dacubeking.com: performance, shaders, Distant Horizons and voice chat",
   "minecraft": "26.3",
   "server": {"name": "dacubeking SMP", "address": "play.dacubeking.com"},
+  "default_options": {"version": 5023, "renderDistance": 8},
   "mods": [
     {"slug": "fabric-api"},
+    {"slug": "yosbr"},
 
     {"slug": "sodium", "beta": true},
     {"slug": "sodium-extra", "beta": true},

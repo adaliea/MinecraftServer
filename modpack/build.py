@@ -107,6 +107,10 @@ def main():
     with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as z:
         z.writestr("modrinth.index.json", json.dumps(index, indent=2))
         z.writestr("overrides/servers.dat", servers_dat(pack["server"]["name"], pack["server"]["address"]))
+        # yosbr copies these into options.txt only when the player has none, so pack
+        # updates never overwrite someone's own settings or keybinds.
+        opts = "".join(f"{k}:{v}\n" for k, v in pack["default_options"].items())
+        z.writestr("overrides/config/yosbr/options.txt", opts)
     print(f"\n{len(files)} files, Fabric Loader {fabric_loader} -> {out}")
 
 

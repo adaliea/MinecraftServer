@@ -13,4 +13,5 @@ python3 modpack/build.py   # -> modpack/dist/*.mrpack
 
 Import the `.mrpack` in the Modrinth App or Prism Launcher. Xaero's maps and all shader
 packs except Complementary Reimagined are optional and can be deselected on import.
-Keep `simple-voice-chat` pinned to the same version as the server's `docker-compose.yml`.
+New installs default to render distance 8 (Distant Horizons draws beyond it) via
+yosbr, which never overwrites existing settings. Keep `simple-voice-chat` pinned to the same version as the server's `docker-compose.yml`.
