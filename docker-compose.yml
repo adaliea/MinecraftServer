@@ -36,12 +36,9 @@ services:
       ENFORCE_SECURE_PROFILE: "false"
       ANNOUNCE_PLAYER_ACHIEVEMENTS: "true"
       ENABLE_ROLLING_LOGS: "true"
-      # All server-side; vanilla clients can join. Distant Horizons and
+      # All server-side; vanilla clients can join. Voxy (+ Voxy Server Side) and
       # Simple Voice Chat are optional client installs.
       MODRINTH_DOWNLOAD_DEPENDENCIES: "required"
-      # Note: DH 3.3.4 deadlocks the very first boot of a NEW world at "Selecting global
-      # world spawn". If you ever regenerate the world, remove distanthorizons for the
-      # first start, then add it back. Existing worlds start fine.
       # (Comments inside the list below must not contain commas; itzg splits on them.)
       MODRINTH_PROJECTS: |
         fabric-api
@@ -54,7 +51,8 @@ services:
         luckperms
         no-chat-reports
         universal-graves
-        distanthorizons
+        # Streams Voxy LODs to players who have Voxy + Voxy Server Side installed
+        voxy-server-side
         simple-voice-chat:x9jLR94Q
         styled-chat
         placeholder-api
@@ -134,8 +132,8 @@ services:
       AWS_ACCESS_KEY_ID: ${R2_ACCESS_KEY_ID}
       AWS_SECRET_ACCESS_KEY: ${R2_SECRET_ACCESS_KEY}
 
-      # Distant Horizons LODs are regenerable and churn heavily, so don't back them up
-      EXCLUDES: "*.jar,cache,logs,*.tmp,DistantHorizons.sqlite*"
+      # Voxy Server Side LODs are derived from the region files and rebuilt automatically
+      EXCLUDES: "*.jar,cache,logs,*.tmp,vss-lod,.lss"
 
       # Long-term world: keep a deep history. --keep-tag protects the final
       # snapshot of the old All of Create 1.21.1 world from ever being pruned.

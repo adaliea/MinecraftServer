@@ -1,6 +1,6 @@
 {
   "name": "dacubeking SMP",
-  "summary": "Vanilla-plus client for play.dacubeking.com: performance, shaders, Distant Horizons and voice chat",
+  "summary": "Vanilla-plus client for play.dacubeking.com: performance, shaders, Voxy and voice chat",
   "minecraft": "26.3",
   "server": {"name": "dacubeking SMP", "address": "play.dacubeking.com"},
   "default_options": {"version": 5023, "renderDistance": 8},
@@ -8,7 +8,7 @@
     {"slug": "fabric-api"},
     {"slug": "yosbr"},
 
-    {"slug": "sodium", "beta": true},
+    {"slug": "sodium", "version": "g6ju16VJ"},
     {"slug": "sodium-extra", "beta": true},
     {"slug": "reeses-sodium-options", "beta": true},
     {"slug": "lithium"},
@@ -19,12 +19,13 @@
     {"slug": "dynamic-fps"},
     {"slug": "krypton"},
 
-    {"slug": "iris"},
+    {"slug": "iris", "version": "vTN4NRGW"},
     {"slug": "continuity"},
     {"slug": "lambdynamiclights"},
     {"slug": "3dskinlayers"},
 
-    {"slug": "distanthorizons"},
+    {"slug": "voxy", "beta": true},
+    {"slug": "voxy-server-side"},
     {"slug": "simple-voice-chat", "version": "x9jLR94Q"},
     {"slug": "no-chat-reports"},
 
