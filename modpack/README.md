@@ -17,4 +17,6 @@ New installs default to render distance 8 (Voxy draws beyond it) via
 yosbr, which never overwrites existing settings. Keep `simple-voice-chat` pinned to the same version as the server's `docker-compose.yml`.
 
 Sodium and Iris are pinned to the versions Voxy 0.2.20 accepts (Sodium 0.9.2–0.9.3,
-Iris < 1.12); bump them together with Voxy.
+Iris < 1.12); bump them together with Voxy. Sodium Extra and Reese's Sodium Options
+require an exact Sodium build, so they're pinned to the releases built for that Sodium.
+Bump all four together, then launch the pack once to check before uploading.
