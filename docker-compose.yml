@@ -51,8 +51,8 @@ services:
         luckperms
         no-chat-reports
         universal-graves
-        # Streams Voxy LODs to players who have Voxy + Voxy Server Side installed
-        voxy-server-side
+        # Voxy Server Side (streams Voxy LODs) is NOT listed here: ./mods holds a patched
+        # 0.20.0 build that fixes a server-tick crash. Re-add it once upstream ships the fix.
         simple-voice-chat:x9jLR94Q
         styled-chat
         placeholder-api
@@ -70,8 +70,14 @@ services:
         structory
         towns-and-towers
         dungeons-and-taverns
+      # The official VSS jar has the same filename Modrinth used; remove it so the
+      # patched copy from ./mods is the only one loaded (Fabric refuses duplicate mod ids).
+      REMOVE_OLD_MODS: "true"
+      REMOVE_OLD_MODS_INCLUDE: "voxy-server-side-fabric.jar"
     volumes:
       - "./data:/data"
+      # Local jars copied into /data/mods at startup (patched VSS; see mods/README.md)
+      - "./mods:/mods:ro"
   # Exposes the BlueMap web map (mc:8100) through a Cloudflare Tunnel instead of a public port.
   # Public hostname -> http://mc:8100 is configured on the tunnel in the Cloudflare dashboard.
   cloudflared:
