@@ -1,0 +1,11 @@
+{
+  "name": "dacubeking-smp-site",
+  "compatibility_date": "2026-11-01",
+  // Static-only Worker: no script, Cloudflare serves ./public directly.
+  "assets": {
+    "directory": "./public",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "routes": [{ "pattern": "play.dacubeking.com", "custom_domain": true }]
+}

@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>dacubeking SMP</title>
+<meta name="description" content="A long-term Minecraft Java survival world for friends. Join at play.dacubeking.com.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,600..800&family=Figtree:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="sun" aria-hidden="true"></div>
+  {{RIDGES}}
+  <nav class="hero-nav wrap" aria-label="Site">
+    <a href="/">dacubeking SMP</a>
+    <span class="links">
+      <a href="https://map.dacubeking.com">Map</a>
+      <a href="/install">How to join</a>
+    </span>
+  </nav>
+  <div class="hero-body wrap">
+    <h1>dacubeking SMP</h1>
+    <p class="lede">A survival world for friends, built to last. Big mountains, real caves and nothing to reset.</p>
+    <button class="address" type="button" data-copy="play.dacubeking.com" aria-describedby="copy-hint">
+      <code>play.dacubeking.com</code>
+      <span class="copy">Copy</span>
+    </button>
+    <p class="hint" id="copy-hint" aria-live="polite">Minecraft Java Edition 26.3. Vanilla works, no mods needed.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <ul class="rows">
+    <li>
+      <a href="https://pack.dacubeking.com/dacubeking-SMP.mrpack">
+        <h2>Modpack</h2>
+        <p>Optional. Faster rendering, shaders, voice chat and distant terrain far past your render distance. Opens in Prism Launcher or the Modrinth App.</p>
+        <span class="go">Download .mrpack</span>
+      </a>
+    </li>
+    <li>
+      <a href="https://map.dacubeking.com">
+        <h2>Live map</h2>
+        <p>See the whole world in 3D in your browser, including where everyone has built.</p>
+        <span class="go">Open the map</span>
+      </a>
+    </li>
+    <li>
+      <a href="/install">
+        <h2>How to join</h2>
+        <p>Step-by-step setup for plain Minecraft or the modpack, plus voice chat.</p>
+        <span class="go">Read the guide</span>
+      </a>
+    </li>
+  </ul>
+
+  <div class="facts">
+    <div>
+      <h3>Whitelisted</h3>
+      <p>Send the admin your Minecraft username to get added before you join.</p>
+    </div>
+    <div>
+      <h3>Graves, not keep-inventory</h3>
+      <p>When you die your items stay in a grave where you fell. Go back and open it to get them.</p>
+    </div>
+    <div>
+      <h3>Hard difficulty</h3>
+      <p>Custom terrain from Tectonic and Terralith, with extra structures. Every block is vanilla.</p>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">dacubeking SMP · play.dacubeking.com</div>
+</footer>
+
+<script>
+  document.querySelectorAll("[data-copy]").forEach((button) => {
+    const hint = document.getElementById("copy-hint");
+    const label = button.querySelector(".copy");
+    const original = hint.textContent;
+    button.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(button.dataset.copy);
+        label.textContent = "Copied";
+        hint.textContent = "Copied. In Minecraft, go to Multiplayer, then Add Server, and paste it.";
+      } catch {
+        hint.textContent = "Couldn't copy automatically. Select the address and copy it.";
+      }
+      setTimeout(() => { label.textContent = "Copy"; hint.textContent = original; }, 4000);
+    });
+  });
+</script>
+</body>
+</html>
