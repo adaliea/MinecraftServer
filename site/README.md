@@ -2,8 +2,7 @@
 
 Static site served by a Cloudflare Worker (assets only, no script).
 
-- Edit `index.src.html` (the ridge art is generated into `public/index.html`) or the
-  files in `public/`.
+- Edit the files in `public/` directly.
 - Deploy: `npx wrangler deploy` from this folder (needs `wrangler login`).
 
 `play.dacubeking.com` is proxied to this Worker, so Minecraft reaches the server through
