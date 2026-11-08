@@ -61,6 +61,10 @@ services:
         invview
         worldedit
         essential-commands
+        # Per-subcommand permission nodes for vanilla commands (trusted: /whitelist add only)
+        vanilla-permissions
+        # /name prefix for everyone (shown in chat via %eclipsescustomname:prefix%)
+        fabric-custom-names
         bluemap
         # Worldgen (vanilla blocks only; removing later just leaves chunk borders)
         tectonic
