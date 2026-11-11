@@ -4,6 +4,7 @@
 Usage: python3 modpack/build.py   ->  modpack/dist/<name>-<version>.mrpack
 """
 import datetime
+import hashlib
 import json
 import struct
 import urllib.parse
@@ -76,13 +77,17 @@ def main():
                     # Multi-loader jars (e.g. Zoomify) list other loaders' libraries as required
                     print(f"  skipped {dep['project_id']}: no Fabric build (required by {f['filename']})")
                     continue
-                add(dv, "mods", required_by=f["filename"])
+                add(dv, "mods", optional=optional, required_by=f["filename"])
 
     print("Mods:")
     for m in pack["mods"]:
         v = get(f"/version/{m['version']}") if "version" in m else \
             pick_version(m["slug"], mc, ["fabric"], beta=m.get("beta", False))
         add(v, "mods", optional=m.get("optional", False))
+    print("Resource packs:")
+    for rp in pack.get("resourcepacks", []):
+        v = get(f"/version/{rp['version']}") if "version" in rp else pick_version(rp["slug"], mc, ["minecraft"])
+        add(v, "resourcepacks", optional=rp.get("optional", False))
     print("Shader packs:")
     for sp in pack["shaderpacks"]:
         add(pick_version(sp["slug"], mc, ["iris"]), "shaderpacks", optional=sp.get("optional", False))
@@ -111,6 +116,11 @@ def main():
         # updates never overwrite someone's own settings or keybinds.
         opts = "".join(f"{k}:{v}\n" for k, v in pack["default_options"].items())
         z.writestr("overrides/config/yosbr/options.txt", opts)
+        # Mods that aren't on Modrinth (our own ports) ship inside the pack.
+        for m in pack.get("local_mods", []):
+            jar = HERE / m["path"]
+            z.write(jar, f"overrides/mods/{jar.name}")
+            print(f"  overrides/mods/{jar.name}  (local, sha256 {hashlib.sha256(jar.read_bytes()).hexdigest()[:12]})")
     print(f"\n{len(files)} files, Fabric Loader {fabric_loader} -> {out}")
 
 
