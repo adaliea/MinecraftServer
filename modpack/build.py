@@ -121,6 +121,10 @@ def main():
             jar = HERE / m["path"]
             z.write(jar, f"overrides/mods/{jar.name}")
             print(f"  overrides/mods/{jar.name}  (local, sha256 {hashlib.sha256(jar.read_bytes()).hexdigest()[:12]})")
+        for rp in pack.get("local_resourcepacks", []):
+            f = HERE / rp["path"]
+            z.write(f, f"overrides/resourcepacks/{f.name}")
+            print(f"  overrides/resourcepacks/{f.name}  (local)")
     print(f"\n{len(files)} files, Fabric Loader {fabric_loader} -> {out}")
 
 

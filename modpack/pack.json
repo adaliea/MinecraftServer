@@ -6,7 +6,7 @@
   "default_options": {
     "version": 5023,
     "renderDistance": 8,
-    "resourcePacks": "[\"vanilla\",\"file/xali's enchanted book v1.0.0.zip\"]",
+    "resourcePacks": "[\"vanilla\",\"black_icons\",\"file/VanillaTweaks_r429177_MC26.3.x.zip\",\"file/xali's enchanted book v1.0.0.zip\",\"continuity:default\"]",
     "incompatibleResourcePacks": "[\"file/xali's enchanted book v1.0.0.zip\"]"
   },
   "mods": [
@@ -46,13 +46,15 @@
     {"slug": "sound-physics-remastered", "beta": true},
     {"slug": "presence-footsteps"},
     {"slug": "coolrain"},
-    {"slug": "noteable", "optional": true},
 
     {"slug": "xaeros-minimap", "optional": true},
     {"slug": "xaeros-world-map", "optional": true}
   ],
   "local_mods": [
     {"path": "local/euphonium-1.0.3+26.3-dacubeking.jar"}
+  ],
+  "local_resourcepacks": [
+    {"path": "local/VanillaTweaks_r429177_MC26.3.x.zip"}
   ],
   "resourcepacks": [
     {"slug": "xalis-enchanted-books", "version": "3I3axi22"}

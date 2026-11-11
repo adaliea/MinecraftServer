@@ -11,13 +11,16 @@ Edit `pack.json`, then build:
 python3 modpack/build.py   # -> modpack/dist/*.mrpack
 ```
 
-Import the `.mrpack` in the Modrinth App or Prism Launcher. Xaero's maps, Noteable (with
-its OneConfig and Compose libraries) and all shader packs except Complementary Reimagined
-are optional and can be deselected on import.
+Import the `.mrpack` in the Modrinth App or Prism Launcher. Xaero's maps and all shader
+packs except Complementary Reimagined are optional and can be deselected on import.
 
-xali's Enchanted Books is enabled by default through yosbr. Its pack.mcmeta predates 26.3,
+Resource packs enabled by default through yosbr: Simple Voice Chat's `black_icons`,
+Vanilla Tweaks (`local/VanillaTweaks_r429177_MC26.3.x.zip`, a custom vanillatweaks.net
+bundle; its `Selected Packs.txt` lists what's in it), xali's Enchanted Books and Continuity's
+`continuity:default`. xali's Enchanted Books' pack.mcmeta predates 26.3,
 so it has to be listed under `incompatibleResourcePacks` too, or the game drops it from
 `resourcePacks` at startup.
+
 New installs default to render distance 8 (Voxy draws beyond it) via
 yosbr, which never overwrites existing settings. Keep `simple-voice-chat` pinned to the same version as the server's `docker-compose.yml`.
 
