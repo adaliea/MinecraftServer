@@ -2,7 +2,7 @@
 
 Vanilla-plus Fabric pack for `play.dacubeking.com`: Sodium/Lithium-family performance
 mods, Iris with shader packs, Voxy + Voxy Server Side (distant terrain streamed from
-the server) and Simple Voice Chat (matching the server), plus QoL (Mod Menu, Zoomify, AppleSkin, Jade, Xaero's maps, ...). The server
+the server) and Simple Voice Chat (matching the server), plus QoL (Mod Menu, Zoomify, Freecam, AppleSkin, Jade, Xaero's maps, ...). The server
 is pre-added to the multiplayer list.
 
 Edit `pack.json`, then build:
