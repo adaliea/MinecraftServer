@@ -52,7 +52,7 @@ services:
         no-chat-reports
         universal-graves
         # Voxy Server Side (streams Voxy LODs) is NOT listed here: ./mods holds a patched
-        # 0.20.0 build that fixes a server-tick crash. Re-add it once upstream ships the fix.
+        # 0.20.0 build with two fixes (tick crash, dimension-change lag). Re-add once upstream has both.
         simple-voice-chat:x9jLR94Q
         styled-chat
         placeholder-api
@@ -76,8 +76,9 @@ services:
         dungeons-and-taverns
       # The official VSS jar has the same filename Modrinth used; remove it so the
       # patched copy from ./mods is the only one loaded (Fabric refuses duplicate mod ids).
+      # The glob also clears older patched builds, since /mods is copied in after.
       REMOVE_OLD_MODS: "true"
-      REMOVE_OLD_MODS_INCLUDE: "voxy-server-side-fabric.jar"
+      REMOVE_OLD_MODS_INCLUDE: "voxy-server-side-fabric*.jar"
     volumes:
       - "./data:/data"
       # Local jars copied into /data/mods at startup (patched VSS; see mods/README.md)
