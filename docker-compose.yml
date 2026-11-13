@@ -94,6 +94,8 @@ services:
       - "./data:/data"
       # Local jars copied into /data/mods at startup (patched VSS; see mods/README.md)
       - "./mods:/mods:ro"
+      # Server list icon (64x64 pixel-art cactus); read at startup
+      - "./server-icon.png:/data/server-icon.png:ro"
   # Exposes the BlueMap web map (mc:8100) through a Cloudflare Tunnel instead of a public port.
   # Public hostname -> http://mc:8100 is configured on the tunnel in the Cloudflare dashboard.
   cloudflared:
