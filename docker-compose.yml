@@ -18,13 +18,15 @@ services:
       TYPE: "FABRIC"
       # Pinned: this is a long-term world, bump deliberately after the mods support a new version
       VERSION: "26.3"
+      FABRIC_LOADER_VERSION: "0.20.1"
+      FABRIC_LAUNCHER_VERSION: "1.1.2"
       MEMORY: "16G"
       # MeowIce flags crash JDK 25 on this aarch64 (Ampere) host; Aikar G1 flags are safe
       USE_AIKAR_FLAGS: "true"
       TZ: "America/Los_Angeles"
       MOTD: "dacubeking SMP"
       DIFFICULTY: "hard"
-      VIEW_DISTANCE: "16"
+      VIEW_DISTANCE: "12"
       SIMULATION_DISTANCE: "10"
       ENTITY_BROADCAST_RANGE_PERCENTAGE: "200"
       SPAWN_PROTECTION: "0"
@@ -38,42 +40,51 @@ services:
       ENABLE_ROLLING_LOGS: "true"
       # All server-side; vanilla clients can join. Voxy (+ Voxy Server Side) and
       # Simple Voice Chat are optional client installs.
-      MODRINTH_DOWNLOAD_DEPENDENCIES: "required"
+      # Every mod below is pinned to a Modrinth version ID, and dependencies are listed
+      # explicitly, so a restart never updates anything. To update: audit the new
+      # versions, then bump the IDs here deliberately.
+      MODRINTH_DOWNLOAD_DEPENDENCIES: "none"
       # (Comments inside the list below must not contain commas; itzg splits on them.)
       MODRINTH_PROJECTS: |
-        fabric-api
-        lithium
-        ferrite-core
-        krypton
-        spark
-        chunky
-        anti-xray
-        luckperms
-        no-chat-reports
-        universal-graves
+        fabric-api:Zns5SSRA
+        lithium:fWv5bnZk
+        ferrite-core:d5ddUdiB
+        krypton:UugdIYJw
+        spark:e3hsPc1o
+        chunky:86FKD9qx
+        anti-xray:AU5FnTTj
+        luckperms:DzQPkkXY
+        no-chat-reports:6g96avt2
+        universal-graves:r9hY06vQ
         # Voxy Server Side (streams Voxy LODs) is NOT listed here: ./mods holds a patched
         # 0.20.0 build with two fixes (tick crash, dimension-change lag). Re-add once upstream has both.
         simple-voice-chat:x9jLR94Q
-        styled-chat
-        placeholder-api
-        ledger
-        vanish
-        invview
-        worldedit
-        essential-commands
+        styled-chat:HQ91YnMY
+        placeholder-api:lXytLqWj
+        ledger:pxv5cN0d
+        vanish:KgeCcJWw
+        invview:uySsk7v8
+        worldedit:ByRNkO83
+        essential-commands:KANmt7ie
         # Per-subcommand permission nodes for vanilla commands (trusted: /whitelist add only)
-        vanilla-permissions
+        vanilla-permissions:bpq3ZDRl
         # /name prefix for everyone (shown in chat via %eclipsescustomname:prefix%)
-        fabric-custom-names
-        bluemap
+        fabric-custom-names:4xw5Z2Sl
+        bluemap:SX74rxzP
         # Worldgen (vanilla blocks only; removing later just leaves chunk borders)
-        tectonic
-        terralith
-        nullscape
-        amplified-nether
-        structory
-        towns-and-towers
-        dungeons-and-taverns
+        tectonic:tRBGDcCT
+        terralith:aGE3hYAA
+        nullscape:79OyFQtd
+        amplified-nether:IYaFP7y8
+        structory:GjOkOVW4
+        towns-and-towers:vHZIKy6e
+        dungeons-and-taverns:hn5CugpP
+        # Dependencies of the mods above, pinned too (dependency auto-download is off)
+        cloth-config:fg2uyxOW
+        cristel-lib:rWxmPrGC
+        fabric-language-kotlin:SKW1BTL3
+        lithostitched:pZgI6b2t
+        polymer:pA7tHJZE
       # The official VSS jar has the same filename Modrinth used; remove it so the
       # patched copy from ./mods is the only one loaded (Fabric refuses duplicate mod ids).
       # The glob also clears older patched builds, since /mods is copied in after.
