@@ -13,9 +13,9 @@
     {"slug": "fabric-api"},
     {"slug": "yosbr"},
 
-    {"slug": "sodium", "version": "g6ju16VJ"},
-    {"slug": "sodium-extra", "version": "SachDQow"},
-    {"slug": "reeses-sodium-options", "version": "GGxJ0JAt"},
+    {"slug": "sodium", "version": "bAZQdGpg"},
+    {"slug": "sodium-extra", "version": "fs5l9Q1U"},
+    {"slug": "reeses-sodium-options", "version": "EfchygKx"},
     {"slug": "lithium"},
     {"slug": "ferrite-core"},
     {"slug": "entityculling"},
@@ -30,6 +30,7 @@
     {"slug": "3dskinlayers"},
 
     {"slug": "voxy", "beta": true},
+    {"slug": "nvidium", "version": "8mVK1zbk"},
     {"slug": "voxy-server-side"},
     {"slug": "simple-voice-chat", "version": "x9jLR94Q"},
     {"slug": "no-chat-reports"},
@@ -37,6 +38,7 @@
     {"slug": "modmenu"},
     {"slug": "zoomify"},
     {"slug": "freecam"},
+    {"slug": "betterf3"},
     {"slug": "appleskin"},
     {"slug": "jade"},
     {"slug": "mouse-tweaks"},

@@ -2,7 +2,7 @@
 
 Vanilla-plus Fabric pack for `play.dacubeking.com`: Sodium/Lithium-family performance
 mods, Iris with shader packs, Voxy + Voxy Server Side (distant terrain streamed from
-the server) and Simple Voice Chat (matching the server), plus QoL (Mod Menu, Zoomify, Freecam, AppleSkin, Jade, Xaero's maps, ...). The server
+the server) and Simple Voice Chat (matching the server), plus QoL (Mod Menu, Zoomify, Freecam, BetterF3, AppleSkin, Jade, Xaero's maps, ...). The server
 is pre-added to the multiplayer list.
 
 Edit `pack.json`, then build:
@@ -24,7 +24,9 @@ so it has to be listed under `incompatibleResourcePacks` too, or the game drops 
 New installs default to render distance 8 (Voxy draws beyond it) via
 yosbr, which never overwrites existing settings. Keep `simple-voice-chat` pinned to the same version as the server's `docker-compose.yml`.
 
-Sodium and Iris are pinned to the versions Voxy 0.2.20 accepts (Sodium 0.9.2–0.9.3,
-Iris < 1.12); bump them together with Voxy. Sodium Extra and Reese's Sodium Options
-require an exact Sodium build, so they're pinned to the releases built for that Sodium.
-Bump all four together, then launch the pack once to check before uploading.
+Sodium is pinned to 0.9.2 because Nvidium 0.4.4-beta7 requires exactly that build, and
+Voxy 0.2.20 accepts it (Sodium 0.9.2–0.9.3, Iris < 1.12). Sodium Extra (0.9.5) and Reese's
+Sodium Options (2.2.5) require an exact Sodium build, so they're pinned to the releases
+built for 0.9.2. Bump Sodium, Nvidium, Voxy, Iris and both addons together, then launch
+the pack once to check before uploading. Nvidium disables itself on GPUs without mesh
+shaders (non-NVIDIA, or older than GTX 16xx) and while an Iris shader is active.
