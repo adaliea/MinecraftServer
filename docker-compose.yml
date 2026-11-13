@@ -57,7 +57,7 @@ services:
         no-chat-reports:6g96avt2
         universal-graves:r9hY06vQ
         # Voxy Server Side (streams Voxy LODs) is NOT listed here: ./mods holds a patched
-        # 0.20.0 build with two fixes (tick crash, dimension-change lag). Re-add once upstream has both.
+        # 0.20.0 build with two fixes (tick crash and dimension-change lag). Re-add once upstream has both.
         simple-voice-chat:x9jLR94Q
         styled-chat:HQ91YnMY
         placeholder-api:lXytLqWj
@@ -79,7 +79,7 @@ services:
         structory:GjOkOVW4
         towns-and-towers:vHZIKy6e
         dungeons-and-taverns:hn5CugpP
-        # Dependencies of the mods above, pinned too (dependency auto-download is off)
+        # Dependencies of the mods above: pinned too since dependency auto-download is off
         cloth-config:fg2uyxOW
         cristel-lib:rWxmPrGC
         fabric-language-kotlin:SKW1BTL3
