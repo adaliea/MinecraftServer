@@ -60,6 +60,8 @@ services:
         # 0.20.0 build with two fixes (tick crash and dimension-change lag). Re-add once upstream has both.
         simple-voice-chat:x9jLR94Q
         styled-chat:HQ91YnMY
+        # Quick Reply: /r and /reply answer the last person who messaged you
+        quickreply:Vk02LMrd
         placeholder-api:lXytLqWj
         ledger:pxv5cN0d
         vanish:KgeCcJWw
