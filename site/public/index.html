@@ -31,6 +31,7 @@
       <span class="copy">Copy</span>
     </button>
     <p class="hint" id="copy-hint" aria-live="polite">Minecraft Java Edition 26.3. Vanilla works, no mods needed.</p>
+    <p class="status" id="status" hidden><span class="dot" aria-hidden="true"></span><span id="status-text"></span></p>
   </div>
 </header>
 
@@ -102,6 +103,24 @@
       setTimeout(() => { label.textContent = "Copy"; hint.textContent = original; }, 4000);
     });
   });
+
+  async function loadStatus() {
+    const box = document.getElementById("status");
+    const text = document.getElementById("status-text");
+    try {
+      const res = await fetch("/api/status");
+      const s = await res.json();
+      box.dataset.state = s.online ? (s.players > 0 ? "active" : "empty") : "down";
+      text.textContent = !s.online ? "Server is offline right now"
+        : s.players === 0 ? "Nobody online right now"
+        : `${s.players} ${s.players === 1 ? "player" : "players"} online now`;
+      box.hidden = false;
+    } catch {
+      box.hidden = true;
+    }
+  }
+  loadStatus();
+  setInterval(() => { if (!document.hidden) loadStatus(); }, 60000);
 </script>
 </body>
 </html>

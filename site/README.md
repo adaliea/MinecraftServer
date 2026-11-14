@@ -1,6 +1,8 @@
 # play.dacubeking.com
 
-Static site served by a Cloudflare Worker (assets only, no script).
+Static site served by a Cloudflare Worker. `src/index.js` only handles `/api/status`,
+which pings the Minecraft server for the online player count (cached 30 s); everything else
+is served straight from `public/`.
 
 - Edit the files in `public/` directly.
 - Deploy: `npx wrangler deploy` from this folder (needs `wrangler login`).
