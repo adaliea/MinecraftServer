@@ -30,3 +30,11 @@ Sodium Options (2.2.5) require an exact Sodium build, so they're pinned to the r
 built for 0.9.2. Bump Sodium, Nvidium, Voxy, Iris and both addons together, then launch
 the pack once to check before uploading. Nvidium disables itself on GPUs without mesh
 shaders (non-NVIDIA, or older than GTX 16xx) and while an Iris shader is active.
+
+## Litematica
+
+Litematica ships with every hotkey unbound and its tool item (the stick), easy place and
+pick block turned off, so it does nothing until a player sets it up. The defaults live in
+`defaults/config/litematica.json` and go out through yosbr, which only writes them when the
+player has no `config/litematica.json` yet. To use it: Mod Menu, Litematica, Hotkeys, then
+bind `openGuiMainMenu` (M is taken by Xaero's world map).
