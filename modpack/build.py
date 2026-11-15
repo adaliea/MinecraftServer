@@ -116,6 +116,11 @@ def main():
         # updates never overwrite someone's own settings or keybinds.
         opts = "".join(f"{k}:{v}\n" for k, v in pack["default_options"].items())
         z.writestr("overrides/config/yosbr/options.txt", opts)
+        # Same for mod configs: defaults/<path> is copied to <path> only if the player has none.
+        for f in sorted((HERE / "defaults").rglob("*")):
+            if f.is_file():
+                z.write(f, f"overrides/config/yosbr/{f.relative_to(HERE / 'defaults').as_posix()}")
+                print(f"  overrides/config/yosbr/{f.relative_to(HERE / 'defaults').as_posix()}  (default config)")
         # Mods that aren't on Modrinth (our own ports) ship inside the pack.
         for m in pack.get("local_mods", []):
             jar = HERE / m["path"]

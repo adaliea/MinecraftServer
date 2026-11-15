@@ -39,6 +39,8 @@
     {"slug": "modmenu"},
     {"slug": "zoomify"},
     {"slug": "freecam"},
+    {"slug": "litematica", "version": "ZqV316KY"},
+    {"slug": "malilib", "version": "JX9bESec"},
     {"slug": "betterf3"},
     {"slug": "spark"},
     {"slug": "appleskin"},
