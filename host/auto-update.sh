@@ -130,8 +130,13 @@ docker image prune -f >/dev/null
 h=$(mc_health)
 [ "$h" = healthy ] || { log "mc: health is '${h:-missing}'"; problems=1; }
 
-last_backup=$(compose logs --since 26h backups 2>&1 | grep -c "snapshot .* saved")
-[ "$last_backup" -gt 0 ] || { log "backups: no successful backup in the last 26 hours"; problems=1; }
+# Ask the restic repository itself (container logs reset whenever the container is recreated)
+last=$(compose exec -T backups restic snapshots --latest 1 --host minecraft-smp-server --json 2>/dev/null | jq -r '.[-1].time // empty')
+if [ -z "$last" ]; then
+  log "backups: couldn't read the backup repository"; problems=1
+elif (( $(date +%s) - $(date -d "$last" +%s) > 26 * 3600 )); then
+  log "backups: last successful backup was $last"; problems=1
+fi
 
 used=$(df --output=pcent / | tail -1 | tr -dc 0-9)
 [ "$used" -lt 85 ] || { log "disk: / is ${used}% full"; problems=1; }
