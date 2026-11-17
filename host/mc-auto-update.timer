@@ -1,0 +1,9 @@
+[Unit]
+Description=Daily container updates at 06:30 US Eastern (after OS updates at 06:00)
+
+[Timer]
+OnCalendar=*-*-* 06:30 America/New_York
+RandomizedDelaySec=0
+
+[Install]
+WantedBy=timers.target

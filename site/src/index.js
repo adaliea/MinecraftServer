@@ -81,9 +81,38 @@ async function status() {
   }
 }
 
+// POST /api/alert lets the Minecraft host email the admin (update failures, rollbacks).
+// Auth is a shared bearer token (secret ALERT_TOKEN); the recipient is secret ALERT_TO.
+async function alert(request, env) {
+  if (request.method !== "POST") return new Response("Method not allowed", { status: 405 });
+  const token = request.headers.get("authorization") ?? "";
+  const expected = `Bearer ${env.ALERT_TOKEN ?? ""}`;
+  const a = new TextEncoder().encode(token), b = new TextEncoder().encode(expected);
+  if (!env.ALERT_TOKEN || a.length !== b.length || !crypto.subtle.timingSafeEqual(a, b)) {
+    return new Response("Unauthorized", { status: 401 });
+  }
+  let body;
+  try { body = await request.json(); } catch { return new Response("Bad JSON", { status: 400 }); }
+  const subject = String(body.subject ?? "").slice(0, 200);
+  const text = String(body.text ?? "").slice(0, 50_000);
+  if (!subject) return new Response("Missing subject", { status: 400 });
+  try {
+    const r = await env.EMAIL.send({
+      from: { email: env.ALERT_FROM, name: "dacubeking SMP server" },
+      to: env.ALERT_TO,
+      subject: `[SMP] ${subject}`,
+      text,
+    });
+    return Response.json({ ok: true, id: r.messageId });
+  } catch (e) {
+    return Response.json({ ok: false, code: e.code ?? null, error: String(e.message ?? e) }, { status: 502 });
+  }
+}
+
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
+    if (url.pathname === "/api/alert") return alert(request, env);
     if (url.pathname !== "/api/status") return env.ASSETS.fetch(request);
 
     const cache = caches.default;

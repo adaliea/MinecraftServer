@@ -1,0 +1,11 @@
+[Unit]
+Description=Update container images (with rollback), reboot for OS updates, daily health checks
+After=docker.service network-online.target
+Wants=network-online.target
+Requires=docker.service
+
+[Service]
+Type=oneshot
+ExecStart=/home/ubuntu/MinecraftServer/host/auto-update.sh
+ExecStopPost=/bin/sh -c '[ "$SERVICE_RESULT" = success ] || /home/ubuntu/MinecraftServer/host/alert.sh "Daily update script failed ($SERVICE_RESULT)" "See journalctl -u mc-auto-update on the server."'
+TimeoutStartSec=45min

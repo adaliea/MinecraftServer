@@ -10,5 +10,8 @@
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "404-page"
   },
+  // Alert email sender. ALERT_TO and ALERT_TOKEN are secrets (wrangler secret put).
+  "send_email": [{ "name": "EMAIL" }],
+  "vars": { "ALERT_FROM": "server@alerts.dacubeking.com" },
   "routes": [{ "pattern": "play.dacubeking.com", "custom_domain": true }]
 }
